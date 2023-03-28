@@ -5,7 +5,8 @@ import FeedbackCard from './FeedbackCard';
 
 const Testimonials = () => {
   return (
-    <section id='clients'
+    <section
+      id='clients'
       className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
     >
       <div />
@@ -15,11 +16,17 @@ const Testimonials = () => {
           <h1 className={`text-gradient ${styles.heading2}`}>DentroCoin</h1>
         </h1>
         <div className='w-full md:mt-0  mt-6'>
-          <p className={`${styles.paragraph} max-w-[450px] text-left pt-[27px]`}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut accusamus, quam quis corrupti ad totam porro iste fugiat.</p>
+          <p
+            className={`${styles.paragraph} max-w-[450px] text-left pt-[27px]`}
+          >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
+            accusamus, quam quis corrupti ad totam porro iste fugiat.
+          </p>
         </div>
 
-<div className='flex flex-wrap'></div>
+        <div className='flex flex-wrap sm:justify-start'>
 
+        </div>
       </div>
     </section>
   );

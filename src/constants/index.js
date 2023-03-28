@@ -110,11 +110,6 @@ export const stats = [
     title: 'Trusted by Company',
     value: '23+',
   },
-  {
-    id: 'stats-4',
-    title: 'Transaction',
-    value: '$23M+',
-  },
 ];
 
 export const footerLinks = [
