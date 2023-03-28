@@ -31,9 +31,8 @@ const Hero = () => {
         </div>
         <h1 className='w-full'></h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+          Dentro Project is all about saving our planet earth, the lives within
+          and the prosperity of all. Let’s make our planet Greener!
         </p>
       </div>
 
