@@ -8,9 +8,9 @@ const Stats = () => {
       className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-20`}
     >
       {stats.map((stat) => (
-        <div key={stat.id} className={`flex-1 flex justify-center items-center m-3`}>
+        <div key={stat.id} className={`flex-1 flex justify-start items-center flex-row m-3`}>
           <h4
-            className='font-poppins f-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px]
+            className='font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px]
             text-white'
           >
             {stat.value}
