@@ -112,6 +112,16 @@
   box-shadow: var(--card-shadow);
 }
 
+.btn:hover{
+  background: var(--black-gradient);
+  color: white;
+}
+
+.circle-btn:hover{
+  background: var(--black-gradient);
+  color: white;
+}
+
 .feedback-container .feedback-card:last-child {
   margin-right: 0px;
 }

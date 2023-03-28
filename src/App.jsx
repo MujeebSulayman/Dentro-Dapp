@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './style';
 import {
-  Billing,
   Business,
   CardDeal,
   Clients,
@@ -32,7 +31,6 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
-          <Billing />
           <CardDeal />
           <Testimonials />
           <Clients />
