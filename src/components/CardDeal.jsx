@@ -11,7 +11,7 @@ const CardDeal = () => {
           DENTRO (BEP-20) Contract Address
         </h2>
         <p
-          className={`${styles.paragraph} max-w-[500px] className='flex flex-row items-center py-[6px] px-[7px] bg-discount-gradient rounded-[10px] mb-9' text-[19px] mt-5`}
+          className={`${styles.paragraph} max-w-[500px] className='flex flex-row items-center py-[6px] px-[4px] bg-discount-gradient rounded-[10px] mb-9' text-[19px] mt-5`}
         >
           0xae5C84e1dfA1696949E67a2bBb2c9C91E4079007
         </p>
