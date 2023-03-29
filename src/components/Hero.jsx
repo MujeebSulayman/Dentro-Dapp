@@ -41,7 +41,7 @@ const Hero = () => {
       >
         <img
           src={robot}
-          alt='billing'
+          alt=''
           className='w-[100%] h-[100%] relative z-[5]'
         />
 

@@ -1,29 +1,28 @@
-import React from 'react';
+import { card } from '../assets';
 import styles, { layout } from '../style';
-import Button from './Button';
-import card from '../assets/card.png'
+import Button from './BtnCopy';
 
 const CardDeal = () => {
+ 
   return (
-    <section id='' className={`${layout.section}`}>
-      <div className={`${layout.sectionInfo}`}>
-        <h2 className={`${styles.heading2}`}>
-          Find a better Crypto deal <br className='sm:block hidden' /> in a few
-          steps
+    <section className={layout.section}>
+      <div className={layout.sectionInfo}>
+        <h2 className={`${styles.heading3} max-w-[470px]`}>
+          DENTRO (BEP-20) Contract Address
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px]`}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-          dolores quidem ab consectetur. Eligendi, placeat? Quo expedita aperiam
-          odit. Illo vel qui esse facilis nostrum id dolores, tempore magnam
-          corporis?
+        <p
+          className={`${styles.paragraph} max-w-[500px] className='flex flex-row items-center py-[6px] px-[7px] bg-discount-gradient rounded-[10px] mb-9' text-[19px] mt-5`}
+        >
+          0xae5C84e1dfA1696949E67a2bBb2c9C91E4079007
         </p>
-        <Button styles='mt-10' />
+
+        <Button styles={`mt-10`}/>
       </div>
-      <div className={`${layout.sectionImg}`}>
-        <img src={card} alt='' className='h-[100%] w-[100%]' />
+
+      <div className={layout.sectionImg}>
+        <img src={card} alt='' className='w-[100%] h-[100%]' />
       </div>
     </section>
   );
 };
-
 export default CardDeal;

@@ -8,7 +8,9 @@ const Navbar = () => {
 
   return (
     <div className='w-full flex py-6 justify-between items-center navbar '>
-      <img src={dentro} alt='dentrocoin' className='w-[100px] h-[100px]' />
+      <a href='/'>
+        <img src={dentro} alt='dentrocoin' className='w-[100px] h-[100px]' />
+      </a>
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
           <li
@@ -17,7 +19,7 @@ const Navbar = () => {
               index === navLinks.lenght - 1 ? 'mr-0' : 'mr-10'
             } text-white`}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`#${nav.id} ${nav.link}`}>{nav.title}</a>
           </li>
         ))}
       </ul>

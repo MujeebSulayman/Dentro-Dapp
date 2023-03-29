@@ -33,6 +33,7 @@ const Business = () => {
           Why You Should <br />
           Choose Dentrocoin?
         </h2>
+
         <p className={`${styles.paragraph} text-dimWhite max-w-[470px] mt-5`}>
           Dentro is derived from the Greek word “∆evtpo” meaning “The Tree” and
           Dentro Project takes its root from the consideration of TREE as a
@@ -42,9 +43,8 @@ const Business = () => {
           Project is all about saving our planet earth, the lives within and the
           prosperity of all.
         </p>
-        <Button styles='mt-10'  />
+        <Button styles='mt-10' />
       </div>
-
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />

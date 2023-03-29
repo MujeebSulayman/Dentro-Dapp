@@ -1,7 +1,4 @@
 import {
-  people01,
-  people02,
-  people03,
   facebook,
   instagram,
   linkedin,
@@ -15,6 +12,10 @@ import {
   star,
 } from '../assets';
 
+import mujeeb1 from '../assets/mujeeb1.jpg';
+import mujeeb3 from '../assets/mujeeb2.jpg';
+import mujeeb2 from '../assets/mujeeb3.jpg';
+
 export const navLinks = [
   {
     id: 'home',
@@ -26,7 +27,7 @@ export const navLinks = [
     title: 'Foundation',
   },
   {
-    id: 'features',
+    id: 'Eco-system',
     title: 'Eco system',
   },
   {
@@ -38,8 +39,8 @@ export const navLinks = [
     title: 'Road Map',
   },
   {
-    id: 'whitepaper',
-    title: 'Whitepaper',
+    id: 'Contact',
+    title: 'Contact Us',
   },
 ];
 
@@ -72,25 +73,25 @@ export const feedback = [
     id: 'feedback-1',
     content:
       'Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.',
-    name: 'Herman Jensen',
+    name: 'Mujeeb',
     title: 'Founder & Leader',
-    img: people01,
+    img: mujeeb1,
   },
   {
     id: 'feedback-2',
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: 'Steve Mark',
+    name: 'Mujeeb',
     title: 'Founder & Leader',
-    img: people02,
+    img: mujeeb2,
   },
   {
     id: 'feedback-3',
     content:
       'It is usually people in the money business, finance, and international trade that are really rich.',
-    name: 'Kenn Gallagher',
+    name: 'Mujeeb',
     title: 'Founder & Leader',
-    img: people03,
+    img: mujeeb3,
   },
 ];
 
@@ -117,19 +118,19 @@ export const footerLinks = [
     title: 'Useful Links',
     links: [
       {
-        name: 'Content',
+        name: 'Foundation',
         link: 'https://www.hoobank.com/content/',
       },
       {
-        name: 'How it Works',
+        name: 'Eco system',
         link: 'https://www.hoobank.com/how-it-works/',
       },
       {
-        name: 'Create',
+        name: 'White Paper',
         link: 'https://www.hoobank.com/create/',
       },
       {
-        name: 'Explore',
+        name: 'Roadmap',
         link: 'https://www.hoobank.com/explore/',
       },
       {
@@ -139,26 +140,26 @@ export const footerLinks = [
     ],
   },
   {
-    title: 'Community',
+    title: 'Others',
     links: [
       {
         name: 'Help Center',
         link: 'https://www.hoobank.com/help-center/',
       },
       {
-        name: 'Partners',
+        name: 'Community',
         link: 'https://www.hoobank.com/partners/',
       },
       {
-        name: 'Suggestions',
+        name: 'FAQ',
         link: 'https://www.hoobank.com/suggestions/',
       },
       {
-        name: 'Blog',
+        name: 'About',
         link: 'https://www.hoobank.com/blog/',
       },
       {
-        name: 'Newsletters',
+        name: 'Contact Us',
         link: 'https://www.hoobank.com/newsletters/',
       },
     ],
@@ -180,7 +181,7 @@ export const footerLinks = [
 
 export const socialMedia = [
   {
-    id: 'social-media-1',
+    id: 'instagram',
     icon: instagram,
     link: 'https://www.instagram.com/',
   },

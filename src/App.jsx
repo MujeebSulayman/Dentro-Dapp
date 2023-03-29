@@ -4,7 +4,6 @@ import {
   Business,
   CardDeal,
   Clients,
-  CTA,
   Footer,
   Navbar,
   Stats,
@@ -34,7 +33,6 @@ const App = () => {
           <CardDeal />
           <Testimonials />
           <Clients />
-          <CTA />
           <Footer />
         </div>
       </div>
