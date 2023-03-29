@@ -12,6 +12,7 @@ const Navbar = () => {
         <img src={dentro} alt='dentrocoin' className='w-[100px] h-[100px]' />
       </a>
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
+   
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -19,7 +20,7 @@ const Navbar = () => {
               index === navLinks.lenght - 1 ? 'mr-0' : 'mr-10'
             } text-white`}
           >
-            <a href={`#${nav.id} ${nav.link}`}>{nav.title}</a>
+            <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
       </ul>
