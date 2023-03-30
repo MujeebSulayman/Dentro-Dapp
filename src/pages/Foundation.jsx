@@ -1,10 +1,11 @@
 import React from 'react';
 import styles, { layout } from '../style';
+import { Stats } from '../components';
 const Foundation = () => {
   return (
-    <section id='featured' className={layout.section}>
-      <div className={`${layout.sectionInfo} flex mb-11`}>
-        <h2 className={`${styles.heading2} flex flex-row justify-center items-center`}>
+    <section id='featured'>
+      <div className={`${layout.sectionInfo} mb-11`}>
+        <h2 className={`${styles.heading4} text-16 flex flex-row justify-center items-center`}>
           DENTRO<span className='text-gradient ml-5'>FOUNDATION</span>
         </h2>
        
@@ -29,6 +30,9 @@ const Foundation = () => {
           DentroBiz venturing activities, hence continuous sustenance of
           re-greening agenda
         </p>
+      </div>
+      <div className={`${styles.padding} flex justify-center items-center`}>
+        <Stats />
       </div>
     </section>
   );
