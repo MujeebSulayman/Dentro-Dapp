@@ -4,12 +4,14 @@ import { Stats } from '../components';
 const Foundation = () => {
   return (
     <section id='featured'>
-      <div className={`${layout.sectionInfo} mb-11`}>
-        <h2 className={`${styles.heading4} text-16 flex flex-row justify-center items-center`}>
+      <div className={`${layout.sectionInfo}`}>
+        <h2
+          className={`${styles.heading4} mt-11 mb-11 flex font-poppins flex-row justify-center items-center`}
+        >
           DENTRO<span className='text-gradient ml-5'>FOUNDATION</span>
         </h2>
-       
-        <p className={`${styles.paragraph} text-dimWhite  mt-5`}>
+
+        <p className={`${styles.paragraph} text-dimWhite mb-11 mt-[11] font-poppins`}>
           Foundation is an integral part of Dentro Ecosystem without which
           Dentro Project re-greening mission will be unrealizable. Dentro
           Foundation is a non -profit making organization with the sole mission
@@ -31,9 +33,15 @@ const Foundation = () => {
           re-greening agenda
         </p>
       </div>
-      <div className={`${styles.padding} flex justify-center items-center`}>
-        <Stats />
-      </div>
+      <section
+        className={`${styles.flexCenter} flex-row  flex-wrap sm:mb-20 mb-20`}
+      >
+        <div
+          className={`${styles.padding} flex justify-between gap-[20px] flex-wrap items-center`}
+        >
+          <Stats />
+        </div>
+      </section>
     </section>
   );
 };

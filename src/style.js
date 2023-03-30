@@ -12,6 +12,9 @@ const styles = {
   paragraph:
     'font-poppins font-normal text-dimWhite text-[17px] leading-[30.8px]',
 
+  paragraph2:
+    'font-poppins font-normal text-dimWhite text-[15px] leading-[30.8px]',
+
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-center items-start',
 

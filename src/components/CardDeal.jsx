@@ -11,7 +11,7 @@ const CardDeal = () => {
         </h2>
 
         <p
-          className={`${styles.paragraph} max-w-[470px] className='justity-center items-center py-[7px] px-[4px] bg-discount-gradient rounded-[10px] max-content-[300px] mt-9 text-start text-[14px]`}
+          className={`${styles.paragraph2} max-w-[470px] className='justity-center items-center py-[10px] px-[7px] bg-discount-gradient rounded-[10px] max-content-[470px] mt-9 text-start`}
         >
           0xae5C84e1dfA1696949E67a2bBb2c9C91E4079007
         </p>
