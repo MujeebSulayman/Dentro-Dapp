@@ -1,23 +1,13 @@
 import React from 'react';
-
 import styles from './style';
-import {
-  Business,
-  CardDeal,
-  Clients,
-  Footer,
-  Navbar,
-  Stats,
-  Testimonials,
-  Hero,
-} from './components';
+import { Footer, Navbar } from './components';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
 import Contact from './pages/Contact';
 import Foundation from './pages/Foundation';
 import Ecosystem from './pages/Ecosystem';
 import Roadmap from './pages/Roadmap';
 import About from './pages/About';
+import Home from './pages/Home';
 
 const App = () => {
   return (
@@ -27,6 +17,8 @@ const App = () => {
           <div className={`${styles.boxWidth}`}>
             <Navbar />
             <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/home' element={<Home />} />
               <Route path='/contact' element={<Contact />} />
               <Route path='/foundation' element={<Foundation />} />
               <Route path='/roadmap' element={<Roadmap />} />
@@ -36,19 +28,8 @@ const App = () => {
           </div>
         </div>
 
-        <div className={`bg-primary ${styles.flexStart} `}>
-          <div className={`${styles.boxWidth}`}>
-            <Hero />
-          </div>
-        </div>
-
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} `}>
           <div className={`${styles.boxWidth}`}>
-            <Stats />
-            <Business />
-            <CardDeal />
-            <Testimonials />
-            <Clients />
             <Footer />
           </div>
         </div>

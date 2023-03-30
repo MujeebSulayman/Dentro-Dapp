@@ -18,16 +18,20 @@ import mujeeb2 from '../assets/mujeeb3.jpg';
 
 export const navLinks = [
   {
-    id: 'Foundation',
+    id: 'Home',
+    title: 'Home',
+  },
+  {
+    id: 'foundation',
     title: 'Foundation',
   },
   {
-    id: 'Ecosystem',
+    id: 'ecosystem',
     title: 'Eco system',
   },
 
   {
-    id: 'Roadmap',
+    id: 'roadmap',
     title: 'Road Map',
   },
   {
@@ -35,7 +39,7 @@ export const navLinks = [
     title: 'About',
   },
   {
-    id: 'Contact',
+    id: 'contact',
     title: 'Contact Us',
   },
 ];

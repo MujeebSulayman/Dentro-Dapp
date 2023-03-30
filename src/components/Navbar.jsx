@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { close, menu } from '../assets';
 import dentro from '../assets/dentro.png';
 import { Link } from 'react-router-dom';
-
 import { navLinks } from '../constants';
+import Home from '../pages/Home';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,15 +13,16 @@ const Navbar = () => {
       <Link to='/'>
         <img src={dentro} alt='dentrocoin' className='w-[100px] h-[100px]' />
       </Link>
+
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[18px] ${
-              index === navLinks.lenght - 1 ? 'mr-0' : 'mr-10'
+              index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
             } text-white`}
           >
-            <Link to={`${nav.id}`}>{nav.title}</Link>
+            <Link to={`/${nav.id}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>
@@ -45,10 +46,10 @@ const Navbar = () => {
               <li
                 key={nav.id}
                 className={`font-poppins font-normal cursor-pointer text-[16px] ${
-                  index === navLinks.lenght - 1 ? 'mr-0' : 'mb-4'
+                  index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
                 } text-white`}
               >
-                <Link to={`${nav.id}`}>{nav.title}</Link>
+                <Link to={`/${nav.id}`}>{nav.title}</Link>
               </li>
             ))}
           </ul>

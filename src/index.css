@@ -130,7 +130,7 @@
   background: transparent;
 }
 
-.feedback-card:hover {
+.feedback-card {
   background: var(--black-gradient);
 }
 
