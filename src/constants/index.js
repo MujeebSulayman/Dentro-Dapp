@@ -18,25 +18,21 @@ import mujeeb2 from '../assets/mujeeb3.jpg';
 
 export const navLinks = [
   {
-    id: 'home',
-    title: 'Home',
-  },
-
-  {
-    id: 'foundation',
+    id: 'Foundation',
     title: 'Foundation',
   },
   {
-    id: 'Eco-system',
+    id: 'Ecosystem',
     title: 'Eco system',
   },
-  {
-    id: 'token',
-    title: 'Token',
-  },
+
   {
     id: 'Roadmap',
     title: 'Road Map',
+  },
+  {
+    id: 'about',
+    title: 'About',
   },
   {
     id: 'Contact',

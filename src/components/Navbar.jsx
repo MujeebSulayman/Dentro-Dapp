@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { close, menu } from '../assets';
 import dentro from '../assets/dentro.png';
+import { Link } from 'react-router-dom';
+
 import { navLinks } from '../constants';
 
 const Navbar = () => {
@@ -8,11 +10,10 @@ const Navbar = () => {
 
   return (
     <div className='w-full flex py-6 justify-between items-center navbar '>
-      <a href='/'>
+      <Link to='/'>
         <img src={dentro} alt='dentrocoin' className='w-[100px] h-[100px]' />
-      </a>
+      </Link>
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
-   
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -20,7 +21,7 @@ const Navbar = () => {
               index === navLinks.lenght - 1 ? 'mr-0' : 'mr-10'
             } text-white`}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <Link to={`${nav.id}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>
@@ -47,7 +48,7 @@ const Navbar = () => {
                   index === navLinks.lenght - 1 ? 'mr-0' : 'mb-4'
                 } text-white`}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <Link to={`${nav.id}`}>{nav.title}</Link>
               </li>
             ))}
           </ul>
