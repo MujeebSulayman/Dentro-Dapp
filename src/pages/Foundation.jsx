@@ -8,7 +8,7 @@ const Foundation = () => {
         <h2
           className={`${styles.heading4} mt-11 mb-11 flex font-poppins flex-row justify-center items-center`}
         >
-          DENTRO<span className='text-gradient ml-5'>FOUNDATION</span>
+          DENTRO<span className='text-gradient ml-3'>FOUNDATION</span>
         </h2>
 
         <p className={`${styles.paragraph} text-dimWhite mb-11 mt-[11] font-poppins`}>
