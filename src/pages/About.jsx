@@ -32,7 +32,7 @@ const About = () => {
           >
             -----------
           </h2>
-          <p className={`${styles.paragraph} text-c`}>
+          <p className={`${styles.paragraph} text-center`}>
             Dentro is derived from the Greek word “∆evtpo” meaning “The Tree”
             and Dentro Project takes its root from the consideration of TREE as
             a crucial element necessary to the survival of our earth and all the
