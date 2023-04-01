@@ -11,7 +11,7 @@ const Mission = () => {
 					OUR MISSION
 				</h2>
 				<p
-					className={`${styles.paragraph} flex flex-row text-dimWhite m-10 justify-center items-center font-poppins`}
+					className={`${styles.paragraph} flex flex-row text-dimWhite m-5 justify-center items-center font-poppins`}
 				>
 					We aim to make this planet more habitable for human living through
 					aggressive afforestation, while advancing the cryptocurrency adoption
