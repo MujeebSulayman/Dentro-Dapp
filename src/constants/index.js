@@ -18,7 +18,7 @@ import mujeeb2 from '../assets/mujeeb3.jpg';
 
 export const navLinks = [
   {
-    id: 'Home',
+    id: 'home',
     title: 'Home',
   },
   {
@@ -119,23 +119,23 @@ export const footerLinks = [
 		links: [
 			{
 				name: 'Foundation',
-				link: 'https://www.hoobank.com/content/',
+				id: 'foundation',
 			},
 			{
 				name: 'Eco system',
-				link: 'https://www.hoobank.com/how-it-works/',
+				id: 'ecosystem',
 			},
 			{
-				name: 'White Paper',
-				link: 'https://www.hoobank.com/create/',
+				name: 'Whitepaper',
+				id: 'whitepaper',
 			},
 			{
 				name: 'Roadmap',
-				link: 'https://www.hoobank.com/explore/',
+				id: 'roadmap',
 			},
 			{
 				name: 'Our Mission',
-				link: 'https://www.hoobank.com/terms-and-services/',
+				id: 'mission',
 			},
 		],
 	},
@@ -144,23 +144,23 @@ export const footerLinks = [
 		links: [
 			{
 				name: 'Community',
-				link: 'https://www.hoobank.com/help-center/',
+				id: 'community',
 			},
 			{
 				name: 'FAQ',
-				link: 'https://www.hoobank.com/partners/',
+				id: 'faq',
 			},
 			{
 				name: 'About',
-				link: 'https://www.hoobank.com/suggestions/',
+				id: 'about',
 			},
 			{
 				name: 'Contact Us',
-				link: 'https://www.hoobank.com/blog/',
+				id: 'contact',
 			},
 			{
 				name: 'Terms and Services',
-				link: 'https://www.hoobank.com/newsletters/',
+				id: 'Terms-and-Services/',
 			},
 		],
 	},
@@ -169,37 +169,33 @@ export const footerLinks = [
 		links: [
 			{
 				name: 'Our Partner',
-				link: 'https://www.hoobank.com/our-partner/',
+				id: 'panters',
 			},
 			{
 				name: 'Become a Partner',
-				link: 'https://www.hoobank.com/become-a-partner/',
+				link: 'become-a-patner',
 			},
 		],
 	},
 ];
 
 export const socialMedia = [
-  {
-    id: 'instagram',
-    icon: instagram,
-    link: 'https://www.instagram.com/',
-  },
-  {
-    id: 'social-media-2',
-    icon: facebook,
-    link: 'https://www.facebook.com/',
-  },
-  {
-    id: 'social-media-3',
-    icon: twitter,
-    link: 'https://www.twitter.com/',
-  },
-  {
-    id: 'social-media-4',
-    icon: linkedin,
-    link: 'https://www.linkedin.com/',
-  },
+
+	{
+		id: 'social-media-2',
+		icon: facebook,
+		link: 'https://www.facebook.com/dentrocoiin/',
+	},
+	{
+		id: 'social-media-3',
+		icon: twitter,
+		link: 'https://twitter.com/dentrocoin?lang=en',
+	},
+	{
+		id: 'social-media-4',
+		icon: linkedin,
+		link: 'https://www.linkedin.com/company/dentrocoin/?trk=public_profile_experience-item_profile-section-card_image-click&originalSubdomain=ng',
+	},
 ];
 
 export const clients = [

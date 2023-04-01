@@ -6,12 +6,12 @@ const Foundation = () => {
     <section id='featured'>
       <div className={`${layout.sectionInfo}`}>
         <h2
-          className={`${styles.heading4} mt-11 mb-11 flex font-poppins flex-row justify-center items-center`}
+          className={`${styles.heading4} mt-11 flex font-poppins flex-row justify-center items-center`}
         >
           DENTRO<span className='text-gradient ml-3'>FOUNDATION</span>
         </h2>
 
-        <p className={`${styles.paragraph} text-dimWhite mb-11 mt-[11] font-poppins`}>
+        <p className={`${styles.paragraph} text-dimWhite m-12 font-poppins`}>
           Foundation is an integral part of Dentro Ecosystem without which
           Dentro Project re-greening mission will be unrealizable. Dentro
           Foundation is a non -profit making organization with the sole mission
