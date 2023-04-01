@@ -1,17 +1,18 @@
 import {
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
-  send,
-  shield,
-  star,
+	facebook,
+	linkedin,
+	twitter,
+	send,
+	shield,
+	star,
+	
 } from '../assets';
 
+import HelloDentro from '../assets/HelloDentro.webp';
+import LegitDentro from '../assets/LegitDentro.webp';
+import LianyuDentro from '../assets/LianyuDentro.webp';
+import QishDentro from '../assets/QishDentro.webp';
+import xhiangDentro from '../assets/xhiangDentro.webp';
 import mujeeb1 from '../assets/mujeeb1.jpg';
 import mujeeb3 from '../assets/mujeeb2.jpg';
 import mujeeb2 from '../assets/mujeeb3.jpg';
@@ -199,20 +200,24 @@ export const socialMedia = [
 ];
 
 export const clients = [
-  {
-    id: 'client-1',
-    logo: airbnb,
-  },
-  {
-    id: 'client-2',
-    logo: binance,
-  },
-  {
-    id: 'client-3',
-    logo: coinbase,
-  },
-  {
-    id: 'client-4',
-    logo: dropbox,
-  },
+	{
+		id: 'client-1',
+		logo: HelloDentro,
+	},
+	{
+		id: 'client-2',
+		logo: LianyuDentro,
+	},
+	{
+		id: 'client-3',
+		logo: LegitDentro,
+	},
+	{
+		id: 'client-4',
+		logo: QishDentro,
+	},
+	{
+		id: 'client-5',
+		logo: xhiangDentro,
+	},
 ];
