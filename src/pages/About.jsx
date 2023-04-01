@@ -5,10 +5,10 @@ import styles, { layout } from '../style';
 
 const About = () => {
   return (
-    <section className={` flex flex-col`}>
+    <section className={` flex flex-col mt-11`}>
       <div className={`${layout.sectionInfo} justify-center items-center`}>
         <p
-          className={`${styles.paragraph} font-bold text-xl text-gradient font-poppins justify-center item-center`}
+          className={`${styles.paragraph} font-extrabold text-xl text-gradient font-poppins justify-center item-center`}
         >
           OUR STORY
         </p>
@@ -18,21 +18,21 @@ const About = () => {
           About DentroCoin
         </h3>
         <p
-          className={`${styles.paragraph} justify-center items-center text-center font-poppins max-w-[770px]`}
+          className={`${styles.paragraph} justify-center items-center text-center font-poppins max-w-[670px]`}
         >
-          in Dentro Project is all about saving our planet earth, the lives
-          within and the prosperity of all. Let’s make our planet Greener!
+          Dentro Project is all about saving our planet earth, the lives within
+          and the prosperity of all. Let’s make our planet Greener!
         </p>
       </div>
 
       <section id='featured' className={layout.section}>
         <div className={layout.sectionInfo}>
           <h2
-            className={`${styles.heading2} flex justify-center text-center items-center font-poppins mt-3`}
+            className={`${styles.heading2} flex justify-center text-center items-center font-poppins `}
           >
             -----------
           </h2>
-          <p className={`${styles.paragraph} text-center`}>
+          <p className={`${styles.paragraph} text-left mr-10 ml-10`}>
             Dentro is derived from the Greek word “∆evtpo” meaning “The Tree”
             and Dentro Project takes its root from the consideration of TREE as
             a crucial element necessary to the survival of our earth and all the
@@ -79,10 +79,12 @@ const About = () => {
           </p>
         </div>
       </section>
-
-<div>
-  <Testimonials/>
-</div>
+      <h2 className={`${styles.heading4} flex flex-row justify-center items-center mt-10`}>
+        Review
+      </h2>
+      <div className={`${styles} ${styles.flexCenter}`}>
+        <Testimonials />
+      </div>
     </section>
   );
 };

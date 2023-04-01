@@ -20,7 +20,7 @@ const FeedbackCard = ({ content, name, title, img }) => (
           {title}
         </p>
       </div>
-      <img src={img} alt={name} className='w-[48px] h-[48px] rounded-full'/>
+      <img src={img} alt='name' className='w-[63px] h-[64px] rounded-full'/>
     </div>
   </div>
 );
