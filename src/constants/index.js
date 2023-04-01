@@ -32,7 +32,7 @@ export const navLinks = [
 
   {
     id: 'roadmap',
-    title: 'Road Map',
+    title: 'Roadmap',
   },
   {
     id: 'about',

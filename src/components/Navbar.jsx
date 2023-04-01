@@ -3,7 +3,6 @@ import { close, menu } from '../assets';
 import dentro from '../assets/dentro.png';
 import { Link } from 'react-router-dom';
 import { navLinks } from '../constants';
-import Home from '../pages/Home';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);

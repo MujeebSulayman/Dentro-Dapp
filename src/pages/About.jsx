@@ -1,6 +1,5 @@
 import React from 'react';
 import { Testimonials } from '../components';
-import FeedbackCard from '../components/FeedbackCard';
 import styles, { layout } from '../style';
 
 const About = () => {
