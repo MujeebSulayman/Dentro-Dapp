@@ -20,8 +20,8 @@ const CardDeal = () => {
           DENTRO (BEP-20) Contract Address
         </h2>
 
-        <div
-          className={`w-full h-10 py-2 border border-gray-300 bg-gray-100 rounded-md ${styles} `}
+        <p
+          className={`${styles.paragraph2} max-w-[470px] className='justity-center items-center py-[10px] px-[7px] bg-discount-gradient rounded-[10px] max-content-[470px] mt-9 text-start`}
         >
           <input
             type='text'
