@@ -114,69 +114,69 @@ export const stats = [
 ];
 
 export const footerLinks = [
-  {
-    title: 'Useful Links',
-    links: [
-      {
-        name: 'Foundation',
-        link: 'https://www.hoobank.com/content/',
-      },
-      {
-        name: 'Eco system',
-        link: 'https://www.hoobank.com/how-it-works/',
-      },
-      {
-        name: 'White Paper',
-        link: 'https://www.hoobank.com/create/',
-      },
-      {
-        name: 'Roadmap',
-        link: 'https://www.hoobank.com/explore/',
-      },
-      {
-        name: 'Terms & Services',
-        link: 'https://www.hoobank.com/terms-and-services/',
-      },
-    ],
-  },
-  {
-    title: 'Others',
-    links: [
-      {
-        name: 'Help Center',
-        link: 'https://www.hoobank.com/help-center/',
-      },
-      {
-        name: 'Community',
-        link: 'https://www.hoobank.com/partners/',
-      },
-      {
-        name: 'FAQ',
-        link: 'https://www.hoobank.com/suggestions/',
-      },
-      {
-        name: 'About',
-        link: 'https://www.hoobank.com/blog/',
-      },
-      {
-        name: 'Contact Us',
-        link: 'https://www.hoobank.com/newsletters/',
-      },
-    ],
-  },
-  {
-    title: 'Partner',
-    links: [
-      {
-        name: 'Our Partner',
-        link: 'https://www.hoobank.com/our-partner/',
-      },
-      {
-        name: 'Become a Partner',
-        link: 'https://www.hoobank.com/become-a-partner/',
-      },
-    ],
-  },
+	{
+		title: 'Useful Links',
+		links: [
+			{
+				name: 'Foundation',
+				link: 'https://www.hoobank.com/content/',
+			},
+			{
+				name: 'Eco system',
+				link: 'https://www.hoobank.com/how-it-works/',
+			},
+			{
+				name: 'White Paper',
+				link: 'https://www.hoobank.com/create/',
+			},
+			{
+				name: 'Roadmap',
+				link: 'https://www.hoobank.com/explore/',
+			},
+			{
+				name: 'Our Mission',
+				link: 'https://www.hoobank.com/terms-and-services/',
+			},
+		],
+	},
+	{
+		title: 'Others',
+		links: [
+			{
+				name: 'Community',
+				link: 'https://www.hoobank.com/help-center/',
+			},
+			{
+				name: 'FAQ',
+				link: 'https://www.hoobank.com/partners/',
+			},
+			{
+				name: 'About',
+				link: 'https://www.hoobank.com/suggestions/',
+			},
+			{
+				name: 'Contact Us',
+				link: 'https://www.hoobank.com/blog/',
+			},
+			{
+				name: 'Terms and Services',
+				link: 'https://www.hoobank.com/newsletters/',
+			},
+		],
+	},
+	{
+		title: 'Partner',
+		links: [
+			{
+				name: 'Our Partner',
+				link: 'https://www.hoobank.com/our-partner/',
+			},
+			{
+				name: 'Become a Partner',
+				link: 'https://www.hoobank.com/become-a-partner/',
+			},
+		],
+	},
 ];
 
 export const socialMedia = [

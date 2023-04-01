@@ -8,6 +8,7 @@ import Ecosystem from './pages/Ecosystem';
 import Roadmap from './pages/Roadmap';
 import About from './pages/About';
 import Home from './pages/Home';
+import Mission from './pages/Mission';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
               <Route path='/roadmap' element={<Roadmap />} />
               <Route path='/ecosystem' element={<Ecosystem />} />
               <Route path='/about' element={<About />} />
+              <Route path='/mission' element={<Mission/>}/>
             </Routes>
           </div>
         </div>
