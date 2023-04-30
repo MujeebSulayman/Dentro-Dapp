@@ -10,7 +10,7 @@ const Roadmap = () => {
 				>
 					Roadmap
 				</h2>
-				<p
+				<div
 					className={`${styles.paragraph} text-left justify-center items-center`}
 				>
 					<p className='italic mb-6 flex justify-center items-center'>
@@ -106,7 +106,7 @@ const Roadmap = () => {
 						Other Regions <br /> Note: Subsequent phases will result from the
 						successes recorded from the unveiled phase
 					</p>
-				</p>
+				</div>
 			</div>
 		</section>
 	);

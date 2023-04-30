@@ -1,5 +1,5 @@
 import React from 'react';
-import { discount, robot } from '../assets';
+import { discount, react, share } from '../assets';
 import styles from '../style';
 import GetStarted from './GetStarted';
 
@@ -40,9 +40,9 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
-          src={robot}
+          src={share}
           alt=''
-          className='w-[100%] h-[100%] relative z-[5]'
+          className='w-[65%] h-[75%] relative z-[5]'
         />
 
         {/* gradient start */}

@@ -20,12 +20,12 @@ const CardDeal = () => {
 					DENTRO (BEP-20) Contract Address
 				</h2>
 
-				<div className='flex items-start justify-start h-10 px-4 py-2 font-poppins w-5/6 bg-gray-100 rounded-md'>
+				<div className='flex items-start justify-start h-10 px-4 py-2 font-poppins w-5/6 bg-gray-500 rounded-md'>
 					<input
 						type='text'
 						value={token}
 						readOnly
-						className={`${styles} w-full text-black font-semibold outline-none`}
+						className={`w-full bg-gray-500 text-white font-normal outline-none`}
 					/>
 				</div>
 
