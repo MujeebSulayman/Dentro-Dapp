@@ -66,12 +66,7 @@ export const featureNFT = [
 		content:
 			'PUT can be used for soft payments, where users can make small transactions of very low value. This will open up new use cases for People utility token, such as paying for digital content, tipping online creators, and paying for online games.',
 	},
-	{
-		id: 'featureNFT-4',
-		title: 'Micropayments',
-		content:
-			'PUT can be used for soft payments, where users can make small transactions of very low value. This will open up new use cases for People utility token, such as paying for digital content, tipping online creators, and paying for online games.',
-	},
+	
 ]
 
 export const features = [

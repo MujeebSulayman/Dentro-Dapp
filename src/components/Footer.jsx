@@ -1,5 +1,5 @@
 import React from 'react';
-import dentro from '../assets/dentro.png';
+import put from '../assets/put.png';
 import { footerLinks, socialMedia } from '../constants';
 import styles from '../style';
 import { Link } from 'react-router-dom';
@@ -9,11 +9,10 @@ const Footer = () => (
 		<div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
 			<div className='flex-[1] flex flex-col justify-start mr-10'>
 				<Link to='/'>
-					<img src={dentro} alt='' className='w-[26%] h-[27%] object-contain' />
+					<img src={put} alt='' className='w-[42%] h-[47%] object-contain' />
 				</Link>
-				<p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-					Dentro Project is all about saving our planet earth, the lives within
-					and the prosperity of all.
+				<p className={`${styles.paragraph} max-w-[312px]`}>
+					The first crypto project set to give and return power to humanity(People) deploying liberalization and decentralization of Crypto financial system.
 				</p>
 			</div>
 

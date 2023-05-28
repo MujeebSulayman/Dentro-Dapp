@@ -6,10 +6,8 @@ import FeaturesCard from '../components/FeaturesCard';
 const Features = () => {
   return (
       <section
-          id='clients'
-          className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
+          className={`${styles.paddingY} ${styles.flexCenter} flex flex-col `}
       >
-          <div className='absolute z-[0] w-[60%] h-[60%] -right-[40%] rounded-full blue__gradient bottom-70 hidden sm:block' />
           <div className={`${layout.sectionInfo} flex justify-center items-center`}>
             
               <p
@@ -22,8 +20,9 @@ const Features = () => {
               </h2>
 
             
-              <div className='absolute z-[0] w-[60%] h-[60%] -left-[40%] rounded-full blue__gradient bottom-20 hidden sm:block' />
-           
+              <div className='absolute z-[0] w-[60%] h-[60%] -left-[30%] rounded-full blue__gradient1 bottom-20 hidden sm:block' />
+              
+              <div className='absolute z-[0] w-[60%] h-[60%] -right-[0%] top-[90%] rounded-full blue__gradient1 bottom-90 hidden sm:block' />           
               <div className='flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]'>
                   {featureNFT.map((card) => (
                       <FeaturesCard key={card.id} {...card} />
