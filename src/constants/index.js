@@ -61,6 +61,45 @@ export const features = [
 	},
 ];
 
+export const marketplace = [
+	{
+		id: 'marketplcae-1',
+		content:
+			'The People utility token NFT marketplace could provide a platform for creators and collectors to buy, sell, and trade NFTs using PUT. This could include a user-friendly interface for browsing and searching for NFTs, as well as tools for creating and listing NFTs.',
+
+		title: 'Platform',
+	},
+	{
+		id: 'marketplcae-2',
+		content:
+			'PUT Nft marketplace could establish partnerships with NFT creators, artists, and other content creators to encourage the creation and sale of NFTs using PUT.',
+
+		title: 'Partnership',
+	},
+	{
+		id: 'marketplcae-3',
+		content:
+			'The PUT NFT marketplace could engage with the wider NFT and cryptocurrency communities, hosting events, online forums, and other initiatives to promote the use of PUT for buying and selling NFTs.',
+
+		title: 'Community Engagement',
+	},
+	{
+		id: 'marketplcae-4',
+		content:
+			'The people utility token NFT marketplace could curate the selection of NFTs available for sale, ensuring that high-quality, original, and unique NFTs are featured prominently.',
+
+		title: 'Curation',
+	},
+	{
+		id: 'marketplcae-5',
+		content:
+			'The People utility token NFT marketplace could promote the use of PUT for buying and selling NFTs, leveraging marketing and promotional campaigns to attract new users and increase adoption.',
+
+		title: 'Promotion',
+	},
+]
+
+
 export const feedback = [
 	{
 		id: 'feedback-1',
@@ -74,7 +113,7 @@ export const feedback = [
 			"The People\'s Coin project is driven by the community of supporters, developers, and investors who are committed to promoting financial freedom and inclusivity.",
 		title: 'Community-Driven',
 	},
-	
+
 	{
 		id: 'feedback-4',
 		content:

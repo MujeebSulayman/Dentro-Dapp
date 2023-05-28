@@ -9,6 +9,7 @@ import {
   Stats,
   Choose,
 } from '../components';
+import Marketplace from '../components/Marketplace';
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
           <CardDeal />
           <Choose />
           <Clients />
+          <Marketplace/>
         </div>
       </div>
     </>
