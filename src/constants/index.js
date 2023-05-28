@@ -40,6 +40,40 @@ export const navLinks = [
 	},
 ];
 
+export const featureNFT = [
+	{
+		id: 'featureNFT-1',
+		title: 'Payments',
+		content:
+			'PUT will be used to make payments for goods and services, both online and offline, making it an acceptable tokens',
+	},
+	{
+		id: 'featureNFT-1',
+		title: 'Payments',
+		content:
+			'PUT will be used to make payments for goods and services, both online and offline, making it an acceptable tokens',
+	},
+	{
+		id: 'featureNFT-2',
+		title: 'Remittances',
+		content:
+			'PUT can be used to send money across borders quickly and at low cost, making it an ideal currency for remittances. Investment: People utility token holders can earn rewards through staking, making it an attractive investment opportunity',
+	},
+	{
+		id: 'featureNFT-3',
+		title: 'Savings',
+		content:
+			'(PUT)can be used as a store of value, making it a viable option for savings. Charitable Donations: PUT can be used for charitable donations, with the transparency of the blockchain ensuring that the donations are used for their intended purpose.',
+	},
+	{
+		id: 'featureNFT-4',
+		title: 'Micropayments',
+		content:
+			'PUT can be used for soft payments, where users can make small transactions of very low value. This will open up new use cases for People utility token, such as paying for digital content, tipping online creators, and paying for online games.',
+	},
+	
+]
+
 export const features = [
 	{
 		id: 'feature-1',

@@ -40,7 +40,12 @@ const Roadmap = () => {
 
 					Massive Online Publicity After kick-starting the offline publicity, the second stage of the project road map is to vigorously market PUT online, deploying every available channel.
 					More Listing: We also intend to list PUT on two more exchanges during this phase. This will also give more publicity to the project and give PUT holders more options for exchange.
-					PUT Foundation registration: We hope to complete the registration of the People's Foundation. The foundation shall take care of the humanity programs of the project and other essential aspects of the project that fall under its jurisdiction.
+					<b>
+
+					PUT Foundation registration:
+					</b>
+					
+					 We hope to complete the registration of the People's Foundation. The foundation shall take care of the humanity programs of the project and other essential aspects of the project that fall under its jurisdiction.
 
 					<h1 className={`${styles.heading3} mt-3`}>
 						Stage 4
@@ -49,17 +54,33 @@ const Roadmap = () => {
 					Implementation of use cases
 					PUT has some use cases to execute, and we expect to start setting up these businesses during this stage.
 					People's Wallet: We hope to launch the decentralized wallet project "People's Wallet" during this phase.
-					Activation of staking: the staking program of PUT will be activated this season.
-					Second project audit:
-					The second audit of PUT will be conducted during this stage.
+					<br />
+					<b className='p-3'>
+
+					Activation of staking:
+					</b>
+					
+					 The staking program of PUT will be activated this season.
+					<br />
+					<b className='p-3'>
+
+					Second project audit: 
+					</b>
+					
+
+					 The second audit of PUT will be conducted during this stage.
 					We need to establish the possibility of making adjustments to the road map to align with the instant reality of the project. And so programs arranged for each stage may be unevenly implemented.
 
 					<h1 className={`${styles.heading3} mt-3`}>
 
 						Stage 5
 					</h1>
+					<b className='p-3'>
 
-					Building People's Blockchain: We intend to start working on building the parent blockchain for PUT in this stage.
+					Building People's Blockchain: 
+</b>
+					
+					We intend to start working on building the parent blockchain for PUT in this stage.
 					People's Foundation: establishment and launch of the People's Foundation This may be accompanied by the maiden People's Fair.
 					Other use cases: Implementing other use cases will be achieved on the scale of preference and relevance.
 

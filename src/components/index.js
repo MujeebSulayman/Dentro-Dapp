@@ -6,6 +6,7 @@ import Stats from './Stats';
 import Footer from './Footer';
 import Choose from './Choose';
 import Marketplace from './Marketplace';
+import Features from '../pages/Features';
 import Hero from './Hero';
 
 export {
@@ -17,5 +18,6 @@ export {
   Footer,
   Choose,
   Marketplace,
+  Features,
   Hero,
 };
