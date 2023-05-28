@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { close, menu } from '../assets';
-import dentro from '../assets/dentro.png';
+import put from '../assets/put.png';
 import { Link, useNavigate } from 'react-router-dom';
 import { navLinks } from '../constants';
 
@@ -11,9 +11,9 @@ const Navbar = () => {
 	return (
 		<div className='w-full flex py-6 justify-between items-center navbar '>
 			<img
-				src={dentro}
-				alt='dentrocoin'
-				className='w-[100px] h-[100px] cursor-pointer'
+				src={put}
+				alt='people utility token'
+				className='w-[70px] h-[70px] cursor-pointer'
 				onClick={() => Navigate('/')}
 
 			/>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { discount, react, share } from '../assets';
+import { discount, react, robot, share } from '../assets';
 import styles from '../style';
 import GetStarted from './GetStarted';
 
@@ -20,10 +20,10 @@ const Hero = () => {
         </div>
         <div className='flex flex-row justify-center items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[62px] text-white ss:leading-[100px] leading-[75px]'>
-            Make your life <br />
+            Making your life <br />
             <span className='text-gradient'>easier with </span>
             <br />
-            Dentrocoin
+            People Utility Token
           </h1>
           <div className='ss:flex hidden md:mr-4 mr-0'>
             <GetStarted />
@@ -31,8 +31,7 @@ const Hero = () => {
         </div>
         <h1 className='w-full'></h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Dentro Project is all about saving our planet earth, the lives within
-          and the prosperity of all. Let’s make our planet Greener!
+          The first crypto project set to give and return power to humanity(People) deploying liberalization and decentralization of Crypto financial system
         </p>
       </div>
 
@@ -40,13 +39,13 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
-          src={share}
+          src={robot}
           alt=''
-          className='w-[65%] h-[75%] relative z-[5]'
+          className='w-[80%] h-[80%] relative z-[5]'
         />
 
         {/* gradient start */}
-        <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient' />
+        <div className='absolute z-[1] w-[40%] h-[35%] top-0 pink__gradient' />
         <div className='absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40' />
         <div className='absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient' />
         {/* gradient end */}

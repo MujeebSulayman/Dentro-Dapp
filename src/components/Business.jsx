@@ -5,9 +5,8 @@ import Button from './Button';
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
-    className={`flex flex-row p-6 rounded-[20px] ${
-      index !== features.length - 1 ? 'mb-6' : 'mb-0'
-    } feature-card`}
+    className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? 'mb-6' : 'mb-0'
+      } feature-card`}
   >
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
@@ -33,7 +32,6 @@ const Business = () => {
           Why You Should <br />
           Choose Dentrocoin?
         </h2>
-
         <p className={`${styles.paragraph} text-dimWhite max-w-[470px] mt-5`}>
           Dentro is derived from the Greek word “∆evtpo” meaning “The Tree” and
           Dentro Project takes its root from the consideration of TREE as a
