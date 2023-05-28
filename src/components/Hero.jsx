@@ -19,26 +19,25 @@ const Hero = () => {
           </p>
         </div>
         <div className='flex flex-row justify-center items-center w-full'>
-          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[62px] text-white ss:leading-[100px] leading-[75px]'>
+          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[43px] md:text[58px] text-white ss:leading-[76px] leading-[52px] md:leading-[72px]'>
             Making life <br />
             <span className='text-gray-500'>easier with </span>
             <br />
             People Utility Token
           </h1>
         </div>
-        <h1 className='w-full'></h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           The first crypto project set to give and return power to humanity(People) deploying liberalization and decentralization of Crypto financial system
         </p>
       </div>
 
       <div
-        className={`flex ${styles.flexCenter} md:my-0 my-10 relative`}
+        className={`flex-1 ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
           src={banner}
           alt=''
-          className='w-[110%] h-[110%] relative z-[5]'
+          className='w-[100%] h-[100%] relative z-[5]'
         />
 
         {/* gradient start */}
