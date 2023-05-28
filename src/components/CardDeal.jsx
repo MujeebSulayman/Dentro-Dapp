@@ -3,19 +3,11 @@ import { about } from '../assets';
 import styles, { layout } from '../style';
 
 const CardDeal = () => {
-	const [token, setToken] = useState(
-		'0xae5C84e1dfA1696949E67a2bBb2c9C91E4079007'
-	);
-	const [copied, setCopied] = useState(false);
-
-	function copyToClipboard() {
-		navigator.clipboard.writeText(token);
-		setCopied(true);
-	}
-
+	
 	return (
 		<section className={layout.section1}>
-			<div className={`${layout.sectionInfo} flex-1`}>
+			
+			<div className={`${layout.sectionInfo}`}>
 				<h2 className={`${styles.heading2} pb-4 max-w-[470px]`}>
 					Token's Utility
 				</h2>
@@ -28,9 +20,22 @@ const CardDeal = () => {
 
 			</div>
 
-			<div className={`${layout.sectionImg} flex-1`}>
-				<img src={about} alt='' className='w-[90%] h-[80%]' />
+			<div
+				className={`flex ${styles.flexCenter} md:my-0 my-10 relative`}
+			>
+				<img
+					src={about}
+					alt=''
+					className='w-[80%] h-[80%] relative z-[5]'
+				/>
+
+				{/* gradient start */}
+				<div className='absolute z-[1] w-[40%] h-[35%] top-0 pink__gradient' />
+				<div className='absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40' />
+				<div className='absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient' />
+				{/* gradient end */}
 			</div>
+			
 		</section>
 	);
 };
