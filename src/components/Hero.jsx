@@ -23,7 +23,7 @@ const Hero = () => {
             Making your life <br />
             <span className='text-gradient'>easier with </span>
             <br />
-            Dentrocoin
+            People Utility Token
           </h1>
           <div className='ss:flex hidden md:mr-4 mr-0'>
             <GetStarted />
