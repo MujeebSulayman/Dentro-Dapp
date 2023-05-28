@@ -65,26 +65,39 @@ export const feedback = [
 	{
 		id: 'feedback-1',
 		content:
-			'The People Utility Token project is driven by the community of supporters, developers, and investors who are committed to promoting financial freedom and inclusivity.',
+			'The People\'s Coin project project is driven by the community of supporters, developers, and investors who are committed to promoting financial freedom and inclusivity.',
 		title: 'Decentralization',
-
-		img: mujeeb1,
 	},
 	{
 		id: 'feedback-2',
 		content:
-			"The People's Coin project is driven by the community of supporters, developers, and investors who are committed to promoting financial freedom and inclusivity.",
+			"The People\'s Coin project is driven by the community of supporters, developers, and investors who are committed to promoting financial freedom and inclusivity.",
 		title: 'Community-Driven',
-
-		img: mujeeb2,
+	},
+	
+	{
+		id: 'feedback-4',
+		content:
+			'The People\'s Coin project is committed to fostering innovation and promoting the development of new use cases and applications for cryptocurrencies',
+		title: 'Innovation',
+	},
+	{
+		id: 'feedback-5',
+		content:
+			'The People\'s Coin project values transparency and seeks to provide clear and concise information about the project\'s development, goals, and progress.',
+		title: 'Transparency',
+	},
+	{
+		id: 'feedback-6',
+		content:
+			'People\'s utility token project aims to create a secure, safe, valuable and impactful cryptocurrency that benefits individuals and communities around the world.',
+		title: 'Safe and Secure',
 	},
 	{
 		id: 'feedback-3',
 		content:
-			'The People Utility Token project seeks to provide a cryptocurrency that is accessible to everyone, regardless of their background, financial status, or location.',
+			'The People\'s Coin project seeks to provide a cryptocurrency that is accessible to everyone, regardless of their background, financial status, or location.',
 		title: 'Accessibility',
-
-		img: mujeeb3,
 	},
 ];
 

@@ -1,27 +1,12 @@
-import { quotes } from '../assets';
-
-const FeedbackCard = ({ content, name, title, img }) => (
+const FeedbackCard = ({ content, title }) => (
   <div className='flex justify-between flex-col px-10 py-12 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card'>
-    <img
-      src={quotes}
-      alt='double_quotes'
-      className='w-[38.6px] h-[24.6px] object-contain'
-    />
-    <p className='font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10'>
+
+    <h1 className='font-poppins flex items-center justify-center font-normal text-[28px] leading-[24px] text-white'>
+      {title}
+    </h1>
+    <p className='font-poppins flex justify-center items-center font-normal text-[18px] leading-[32.4px] text-dimWhite mt-6'>
       {content}
     </p>
-
-    <div className='flex flex-row'>
-      <div className='flex flex-col mr-[45px]'>
-        <h4 className='font-poppins font-normal text-[20px] leading-[32px] text-white'>
-          {name}
-        </h4>
-        <p className='font-poppins font-normal text-[16px] leading-[24px] text-dimWhite'>
-          {title}
-        </p>
-      </div>
-      <img src={img} alt='name' className='w-[63px] h-[64px] rounded-full'/>
-    </div>
   </div>
 );
 
