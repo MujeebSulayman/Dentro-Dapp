@@ -9,7 +9,7 @@ const Navbar = () => {
 	const Navigate = useNavigate();
 
 	return (
-		<div className='w-full flex py-6 justify-between items-center navbar '>
+		<div className='w-full flex py-6 justify-between items-center navbar backdrop-blur-sm backdrop-brightness-150 md:backdrop-filter-none'>
 			<img
 				src={put}
 				alt='people utility token'
@@ -43,7 +43,7 @@ const Navbar = () => {
 				<div
 					className={`${
 						toggle ? 'flex' : 'hidden'
-					} bg-black/10 p-6 backdrop-blur-sm backdrop-brightness-150 md:backdrop-filter-none absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+					}  p-6 backdrop-blur-sm backdrop-brightness-150 md:backdrop-filter-none absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
 				>
 					<ul className='list-none flex-col justify-end items-center flex-1'>
 						{navLinks.map((nav, index) => (
