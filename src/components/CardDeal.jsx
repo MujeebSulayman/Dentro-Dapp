@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { card } from '../assets';
+import { about } from '../assets';
 import styles, { layout } from '../style';
 
 const CardDeal = () => {
@@ -16,29 +16,20 @@ const CardDeal = () => {
 	return (
 		<section className={layout.section}>
 			<div className={layout.sectionInfo}>
-				<h2 className={`${styles.heading4} pb-4 max-w-[470px]`}>
-					DENTRO (BEP-20) Contract Address
+				<h2 className={`${styles.heading2} pb-4 max-w-[470px]`}>
+					Token's Utility
 				</h2>
 
-				<div className='flex items-start justify-start h-10 px-4 py-2 font-poppins w-5/6 bg-gray-500 rounded-md'>
-					<input
-						type='text'
-						value={token}
-						readOnly
-						className={`w-full bg-gray-500 text-white font-normal outline-none`}
-					/>
-				</div>
+				<h2 className={`${styles.paragraph}`}>Utilities in cryptocurrency are general problems which tokens solves,benefits accrued to crypto users in the ecosystem.
 
-				<button
-					onClick={copyToClipboard}
-					className='px-4 py-2 border-1 text-white bg-gray-700 border-gray-300 rounded-md mt-7 font-poppins'
-				>
-					{copied ? 'Copied' : 'Copy Token'}
-				</button>
+					People utility token as a utility asset will be proof- of-stake, where holders can stake the token for a period of time and earn rewards of stake. The systemic plan is that annual stake of above 5million PUT will attract annual reward 10% PUT,
+
+					Another utility of People utility token(PUT) is the envisioned creation of a multi chain blockchain on which people utility token will sit. The blockchain interface will be devoid of scalability chain to chain transaction will be super fast, thereby fixing the problem of queuing in transaction and making transactions happen in real time. As a multi chain, the blockchain will be a solid and friendly base for other crypto projects to launch,we will create a robust,flexible and users attracting ecosystem.</h2>
+
 			</div>
 
 			<div className={layout.sectionImg}>
-				<img src={card} alt='' className='w-[100%] h-[100%]' />
+				<img src={about} alt='' className='w-[80%] h-[80%]' />
 			</div>
 		</section>
 	);

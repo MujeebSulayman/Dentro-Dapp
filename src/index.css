@@ -137,13 +137,6 @@
 	margin-right: 0px;
 }
 
-.feedback-card {
-	background: transparent;
-}
-
-.feedback-card {
-	background: var(--black-gradient);
-}
 
 .roadmap li {
 	padding-bottom: 12px;
