@@ -33,12 +33,12 @@ const Hero = () => {
       </div>
 
       <div
-        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+        className={`flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
           src={banner}
           alt=''
-          className='w-[100%] h-[100%] relative z-[5]'
+          className='w-[110%] h-[110%] relative z-[5]'
         />
 
         {/* gradient start */}
