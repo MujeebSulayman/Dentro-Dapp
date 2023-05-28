@@ -16,7 +16,7 @@ const Stats = () => {
             {stat.value}
           </h4>
           <p
-            className={`${styles.paragraph} text-gradient font-normal xs:text-[20] text-[15] xs:leading-[23px] leading-[21px] ml-2`}
+            className={`${styles.paragraph} text-whitestat font-normal xs:text-[20] text-[15] xs:leading-[23px] leading-[21px] ml-2`}
           >
             {stat.title}
           </p>
