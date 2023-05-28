@@ -13,7 +13,7 @@ const Navbar = () => {
 			<img
 				src={put}
 				alt='people utility token'
-				className='w-[70px] h-[70px] cursor-pointer'
+				className='w-[140px] h-[100px] cursor-pointer'
 				onClick={() => Navigate('/')}
 
 			/>

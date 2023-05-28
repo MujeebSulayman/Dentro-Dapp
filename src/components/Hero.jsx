@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
         </div>
         <div className='flex flex-row justify-center items-center w-full'>
-          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[43px] md:text[58px] text-white ss:leading-[76px] leading-[52px] md:leading-[72px]'>
+          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] md:text[60px] text-white ss:leading-[76px] leading-[58px] md:leading-[72px]'>
             Making life <br />
             <span className='text-gray-500'>easier with </span>
             <br />
