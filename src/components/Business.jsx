@@ -29,17 +29,12 @@ const Business = () => {
     <section id='featured' className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          Why You Should <br />
-          Choose Dentrocoin?
+          Goals and Vision
         </h2>
         <p className={`${styles.paragraph} text-dimWhite max-w-[470px] mt-5`}>
-          Dentro is derived from the Greek word “∆evtpo” meaning “The Tree” and
-          Dentro Project takes its root from the consideration of TREE as a
-          crucial element necessary to the survival of our earth and all the
-          livings that inhabit it. In mythologies, Tree represents life, growth
-          and by extension, the wisdom, power and prosperity. Therefore, Dentro
-          Project is all about saving our planet earth, the lives within and the
-          prosperity of all.
+          The Goal of the People's Utility token (PUT) project is to provide a decentralized, community-driven cryptocurrency that empowers people to take control of their finances and promote financial inclusivity.
+
+          The Vision of the People utility token is to create a world in which everyone has access to a secure and reliable cryptocurrency that can be used for everyday transactions, investments, and savings. By promoting financial freedom and inclusivity, the People's Coin project seeks to enable people around the world to improve their lives and achieve their financial goals.
         </p>
         <Button styles='mt-10' />
       </div>

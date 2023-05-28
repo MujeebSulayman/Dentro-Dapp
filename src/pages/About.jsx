@@ -1,5 +1,5 @@
 import React from 'react';
-import { Testimonials } from '../components';
+import { Choose } from '../components';
 import styles, { layout } from '../style';
 
 const About = () => {
@@ -82,7 +82,7 @@ const About = () => {
         Review
       </h2>
       <div className={`${styles} ${styles.flexCenter}`}>
-        <Testimonials />
+        <Choose />
       </div>
     </section>
   );

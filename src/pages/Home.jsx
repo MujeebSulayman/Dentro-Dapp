@@ -7,7 +7,7 @@ import {
   Clients,
   Hero,
   Stats,
-  Testimonials,
+  Choose,
 } from '../components';
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
           <Stats />
           <Business />
           <CardDeal />
-          <Testimonials />
+          <Choose />
           <Clients />
         </div>
       </div>

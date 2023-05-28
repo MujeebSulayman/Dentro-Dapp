@@ -20,14 +20,11 @@ const Hero = () => {
         </div>
         <div className='flex flex-row justify-center items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[62px] text-white ss:leading-[100px] leading-[75px]'>
-            Making your life <br />
-            <span className='text-gradient'>easier with </span>
+            Making life <br />
+            <span className='text-gray-500'>easier with </span>
             <br />
             People Utility Token
           </h1>
-          <div className='ss:flex hidden md:mr-4 mr-0'>
-            <GetStarted />
-          </div>
         </div>
         <h1 className='w-full'></h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -49,10 +46,6 @@ const Hero = () => {
         <div className='absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40' />
         <div className='absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient' />
         {/* gradient end */}
-      </div>
-
-      <div className={`ss:hidden ${styles.flexCenter}`}>
-        <GetStarted />
       </div>
     </section>
   );

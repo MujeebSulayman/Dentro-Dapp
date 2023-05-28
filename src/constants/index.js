@@ -65,25 +65,25 @@ export const feedback = [
 	{
 		id: 'feedback-1',
 		content:
-			'Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.',
-		name: 'Mujeeb',
-		title: 'Founder & Leader',
+			'The People Utility Token project is driven by the community of supporters, developers, and investors who are committed to promoting financial freedom and inclusivity.',
+		title: 'Decentralization',
+
 		img: mujeeb1,
 	},
 	{
 		id: 'feedback-2',
 		content:
-			"Money makes your life easier. If you're lucky to have it, you're lucky.",
-		name: 'Mujeeb',
-		title: 'Founder & Leader',
+			"The People's Coin project is driven by the community of supporters, developers, and investors who are committed to promoting financial freedom and inclusivity.",
+		title: 'Community-Driven',
+
 		img: mujeeb2,
 	},
 	{
 		id: 'feedback-3',
 		content:
-			'It is usually people in the money business, finance, and international trade that are really rich.',
-		name: 'Mujeeb',
-		title: 'Founder & Leader',
+			'The People Utility Token project seeks to provide a cryptocurrency that is accessible to everyone, regardless of their background, financial status, or location.',
+		title: 'Accessibility',
+
 		img: mujeeb3,
 	},
 ];
