@@ -20,6 +20,7 @@ const styles = {
 
 	paddingX: 'sm:px-16 px-6',
 	paddingY: 'sm:py-16 py-6',
+	paddingY1: 'sm:py-8 py-10',
 	padding: 'sm:px-16 px-6 sm:py-12 py-4',
 
 	marginX: 'sm:mx-16 mx-6',
@@ -28,6 +29,7 @@ const styles = {
 
 export const layout = {
   section: `flex md:flex-row flex-col ${styles.paddingY}`,
+	section1: `flex md:flex-row flex-col ${styles.paddingY1}`,
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
 
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
