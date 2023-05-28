@@ -22,6 +22,7 @@ import linkedin from './linkedin.svg';
 import twitter from './twitter.svg';
 import react from './react.png';
 import share from './share.png';
+import banner from './banner.png';
 
 export {
 	airbnb,
@@ -47,5 +48,6 @@ export {
 	linkedin,
 	twitter,
 	react,
+	banner,
 	share,
 };
