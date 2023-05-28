@@ -9,7 +9,7 @@ const Navbar = () => {
 	const Navigate = useNavigate();
 
 	return (
-		<div className='w-full flex py-6 justify-between items-center navbar'>
+		<div className='w-full flex py-6 justify-between items-center navbar z-[0]'>
 			<img
 				src={put}
 				alt='people utility token'
