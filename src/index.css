@@ -22,7 +22,11 @@
 	background: radial-gradient(
 		64.18% 64.18% at 71.16% 35.69%,
 		#EE0091 0.89%,
-
+		#EE0091 0.89%,
+		#EE0091 0.89%,
+		#850051 55.12%,
+		#850051 71.54%,
+		#850051 100%
 	);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
