@@ -10,103 +10,66 @@ const Roadmap = () => {
 				>
 					Roadmap
 				</h2>
-				<div
-					className={`${styles.paragraph} text-left justify-center items-center`}
-				>
-					<p className='italic mb-6 flex justify-center items-center'>
-						[This Roadmap is temporary and it’s subject to review]
+
+				<p className={`${styles.paragraph} text-left justify-center items-center`}>
+					It is a token with huge prospects and enormous value to give back to the real owners of wealth—people.
+					The team has crafted a simple and achievable road map for PUT
+					This written road map is auto activated, most of the concrete parts of it shall start unfolding after Listing on first Exchange..
+					<h1 className={`${styles.heading3} mt-10`}>
+						Stage 1
+					</h1>
+
+					Creation of Put and execution of all the ideas and plans
+
+					<h1 className={`${styles.heading3} mt-10`}>
+						Stage 2
+					</h1>
+
+					<p>
+						<b>	Airdrop:</b> The first phase of the airdrop of PUT shall be done using Exchange as the medium of deployment.
+						Offline Publicity: During this period we intend to start vigorous offline publicity with the view of growing the PUT community
+						First Project Audit: We shall also do the first Audit of the project during this stage to help see how to restrategize for the next stage
+						After the first exchange listing:
 					</p>
-					<p className='flex justify-center items-center'>
-						DENTRO Team has developed a culture of delivering on the promises.
-						As such, the accomplishments speak volume since the inception of the
-						project in the first quarter of the year 2021. This roadmap review
-						therefore itemizes the project accomplishments and what we look on
-						to bring into the crypto space as a proponent of planet re-greening
-						and advocate of independence for crypto-economy:
-					</p>
-					<h2 className={`${styles.heading4} pt-[55px]`}>1st Quarter 2021</h2>
-					<ul className={`${styles.paragraph} ml-9 roadmap`}>
-						<li className='pt-6'>Idea Generation</li>
-						<li>Constitution of Dentro Project Team.</li>
-						<li>Project Planning and Design 2nd Quarter 2021.</li>
-					</ul>
-					<h2 className={`${styles.heading4} pt-10`}>2nd Quarter 2021.</h2>
-					<ul className={`${styles.paragraph} ml-9 roadmap`}>
-						<li className='pt-6'> Launching of social media platforms </li>
-						<li> The Launch of the Project</li>
-						<li> website:- https://www.dentrocioin.com </li>
-						<li> Dentrocoin v1 Smart Contract </li>
-						<li> Deployment Whitepaper</li>
-						<li> Development Dentrocoin v1 Giveaway (Airdrop) </li>
-					</ul>
-					<h2 className={`${styles.heading4} pt-14`}>3rd Quarter 2021.</h2>
-					<ul className={`${styles.paragraph} ml-9 roadmap`}>
-						<li className='pt-6'>
-							Dentrocoin v2 Smart Contract Deployment and Migration Launching
-						</li>
-						<li>DENTRO/BNB Liquidity Pool on DEX- Pancakeswap.finance</li>
-						<li>The Lock 55% Dentrocoin and LP Token with DxSale </li>
-					</ul>
-					<h2 className={`${styles.heading4} pt-14`}>4th Quarter 2021.</h2>
-					<ul className={`${styles.paragraph} ml-9 roadmap`}>
-						<li className='pt-6'>Listing of Dentrocoin on CEXes </li>
-						<li>DentroBiz’s incorporation of Dentlink International</li>
-						<li>Listing of Dentrocoin on Coinmarketcap </li>
-						<li>Commissioning of Dentlink Mall, in West Africa.</li>
-					</ul>
-					<h2 className={`${styles.heading2} pt-16`}>1st Quarter 2022.</h2>
-					<ul className={`${styles.paragraph} ml-9 roadmap`}>
-						<li className='pt-6'>
-							Launching of DentroPay; Official Decentralised Wallet of
-							Dentrocoin for Sending, Receiving and Storage of Cryptocurrencies
-						</li>
-						<li>
-							Mini Swap: Exchanging Cryptocurrencies to Dentrocoin on DentroPay
-						</li>
-						<li>Mini P2P: Buying Dentrocoin with Fiat on DentroPay</li>
-						<li>Website Redevelopment</li>
-						<li>Whitepaper Review</li>
-						<li>Roadmap Review</li>
-						<li>Influencers promotions</li>
-						<li>DentroPay Referral Campaign targeting 100,000 holders</li>
-					</ul>
-					<h2 className={`${styles.heading4} pt-14`}>2nd Quarter 2022.</h2>
-					<ul className={`${styles.paragraph} ml-9 roadmap`}>
-						<li className='pt-6'>
-							Launching of Dentro-MS for Dentrocoin’s Merchants’ Adoption
-						</li>
-						<li>Media Promotions</li>
-						<li>Activation of Global Airtime Top-up on DentroPay</li>
-						<li>More Major CEX Listings of Dentrocoin</li>
-					</ul>
-					<h2 className={`${styles.heading4} pt-14`}>3rd Quarter 2022.</h2>
-					<ul className={`${styles.paragraph} ml-9 roadmap`}>
-						<li className='pt-6'>Formal Launching of Dentro Foundation</li>
-						<li>Commencement of Re-greening Agenda</li>
-						<li>Saving and Staking on DentroPay</li>
-						<li> DEX integration on DentroPay Dapp</li>
-						<li>More Media Coverage Promotions </li>
-						<li>First Vesting of the Locked Tokens</li>
-						<li>More CEX Listings and IEOs</li>
-						<li>First Burning of Unsold Tokens from IEOs</li>
-					</ul>
-					<h2 className={`${styles.heading4} pt-14 font-poppins`}>4th Quarter 2022.</h2>
-					<ul className={`${styles.paragraph} ml-9 roadmap`}>
-						<li className='pt-6'>Extension of DentroBiz Tentacles</li>
-						<li>Further Planting Efforts by Dentro Foundation</li>
-						<li>More Major Listing of Dentrocoin</li>
-						<li>Reviewing the Swap and P2P Features on DentroPay</li>
-						<li>More Media Promotions</li>
-						<li></li>
-					</ul>
-					<p className='italic font-poppins'>
-						Special Event Estimate of Trees Planted in 2022 and Dentrocoin’s
-						Burning <br /> NEXT: Further Development of the Dentro Ecosystem and
-						Replication of Successes from DentroBiz and Dentro Foundations in
-						Other Regions <br /> Note: Subsequent phases will result from the
-						successes recorded from the unveiled phase
-					</p>
-				</div>
+
+					<h1 className={`${styles.heading3} mt-3`}>
+
+						Stage 3
+					</h1>
+
+
+					Massive Online Publicity After kick-starting the offline publicity, the second stage of the project road map is to vigorously market PUT online, deploying every available channel.
+					More Listing: We also intend to list PUT on two more exchanges during this phase. This will also give more publicity to the project and give PUT holders more options for exchange.
+					PUT Foundation registration: We hope to complete the registration of the People's Foundation. The foundation shall take care of the humanity programs of the project and other essential aspects of the project that fall under its jurisdiction.
+
+					<h1 className={`${styles.heading3} mt-3`}>
+						Stage 4
+					</h1>
+
+					Implementation of use cases
+					PUT has some use cases to execute, and we expect to start setting up these businesses during this stage.
+					People's Wallet: We hope to launch the decentralized wallet project "People's Wallet" during this phase.
+					Activation of staking: the staking program of PUT will be activated this season.
+					Second project audit:
+					The second audit of PUT will be conducted during this stage.
+					We need to establish the possibility of making adjustments to the road map to align with the instant reality of the project. And so programs arranged for each stage may be unevenly implemented.
+
+					<h1 className={`${styles.heading3} mt-3`}>
+
+						Stage 5
+					</h1>
+
+					Building People's Blockchain: We intend to start working on building the parent blockchain for PUT in this stage.
+					People's Foundation: establishment and launch of the People's Foundation This may be accompanied by the maiden People's Fair.
+					Other use cases: Implementing other use cases will be achieved on the scale of preference and relevance.
+
+					<h1 className={`${styles.heading3} mt-3`}>
+
+						Stage 6:
+					</h1>
+					This stage of the project will activate the NFT.
+				</p>
+
 			</div>
 		</section>
 	);

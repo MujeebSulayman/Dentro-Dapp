@@ -22,7 +22,10 @@ export const navLinks = [
 		id: 'ecosystem',
 		title: 'Eco system',
 	},
-
+	{
+		id: 'features',
+		title: 'Features',
+	},
 	{
 		id: 'roadmap',
 		title: 'Roadmap',
@@ -72,7 +75,7 @@ export const marketplace = [
 	{
 		id: 'marketplcae-2',
 		content:
-			'PUT Nft marketplace could establish partnerships with NFT creators, artists, and other content creators to encourage the creation and sale of NFTs using PUT.',
+			'PUT NFT marketplace could establish partnerships with NFT creators, artists, and other content creators to encourage the creation and sale of NFTs using PUT.',
 
 		title: 'Partnership',
 	},
