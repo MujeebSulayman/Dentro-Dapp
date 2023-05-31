@@ -37,7 +37,7 @@ const Hero = () => {
         <img
           src={banner}
           alt=''
-          className='w-[100%] h-[100%] relative z-[5]'
+          className='w-[120%] md:w-[100%] h-[120%] md:h-[100%] relative z-[5]'
         />
 
         {/* gradient start */}
