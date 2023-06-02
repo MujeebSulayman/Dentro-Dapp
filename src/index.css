@@ -133,8 +133,15 @@
 	background-color: white;
 }
 
+.circle-btn {
+	background: linear-gradient(180deg, #EE0091 0%, #4d1f1f 100%)
+	
+}
+
 .circle-btn:hover {
-	background: var(--black-gradient);
+	background: white;
+	color: black;
+
 }
 
 .feedback-container .feedback-card:last-child {
