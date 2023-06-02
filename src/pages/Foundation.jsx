@@ -11,7 +11,7 @@ const Foundation = () => {
           PUT<span className='text-gradient ml-3'>FOUNDATION</span>
         </h2>
 
-        <p className={`${styles.paragraph} text-dimWhite font-poppins`}>
+        <p className={`${styles.paragraph} pt-5 text-dimWhite font-poppins`}>
           People's utility token(PUT) foundation will be established to support and promote the development and adoption of PUT. The foundation will also support the development of PUT by funding and managing development teams, sponsoring hackathons and other events to encourage innovation, and providing technical resources and support to developers.
 
           Generally the Foundation would be the charity arm of the project. Where Empowerment and giving back to the people and communities will be the primary objective
