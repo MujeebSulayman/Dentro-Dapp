@@ -27,7 +27,7 @@ const Hero = () => {
           </h1>
         </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          The first crypto project set to give and return power to humanity(People) deploying liberalization and decentralization of Crypto financial system
+          The first crypto project set to give and return power to People deploying liberalization and decentralization of Crypto financial system
         </p>
       </div>
 
