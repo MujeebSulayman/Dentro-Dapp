@@ -6,10 +6,10 @@ const Foundation = () => {
     <section id='featured'>
       <div className={`${layout.sectionInfo}`}>
         <h2
-          className={`${styles.heading4} className='text-gradient ml-3' mt-11 flex font-poppins flex-row justify-center items-center`}
+          className={`${styles.heading2} mt-11 flex font-poppins flex-row justify-center items-center`}
         >
-          PUT FOUNDATION
-        </h2>
+          <span className='text-gradient ml-3'>PUT FOUNDATION</span>
+        </h2> 
 
         <p className={`${styles.paragraph} pt-5 text-dimWhite font-poppins`}>
           People's utility token(PUT) foundation will be established to support and promote the development and adoption of PUT. The foundation will also support the development of PUT by funding and managing development teams, sponsoring hackathons and other events to encourage innovation, and providing technical resources and support to developers.
