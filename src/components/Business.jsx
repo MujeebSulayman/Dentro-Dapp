@@ -2,7 +2,6 @@ import React from 'react';
 import styles, { layout } from '../style';
 import { features } from '../constants';
 import Button from './Button';
-import Whitepaper from './Whitepaper';
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
@@ -38,9 +37,7 @@ const Business = () => {
           The Vision of the People utility token is to create a world in which everyone has access to a secure and reliable cryptocurrency that can be used for everyday transactions, investments, and savings. By promoting financial freedom and inclusivity, the People's Coin project seeks to enable people around the world to improve their lives and achieve their financial goals.
         </p>
         <div className='flex flex-row justify-center items-center'>
-
           <Button styles='mt-10' />
-
         </div>
       </div>
       <div className={`${layout.sectionImg} flex-col`}>

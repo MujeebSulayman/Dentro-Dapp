@@ -1,11 +1,8 @@
 import airbnb from './airbnb.png';
-import bill from './bill.png';
 import binance from './binance.png';
-import card from './card.png';
 import coinbase from './coinbase.png';
 import dropbox from './dropbox.png';
 import logo from './logo.png';
-import dnt from './dnt.png'
 import quotes from './quotes.svg';
 import robot from './robot.png';
 import send from './Send.svg';
@@ -27,10 +24,7 @@ import about from './about.png';
 
 export {
 	airbnb,
-	bill,
 	binance,
-	card,
-	dnt,
 	coinbase,
 	dropbox,
 	logo,
