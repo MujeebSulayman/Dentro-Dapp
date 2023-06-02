@@ -21,6 +21,8 @@ import twitter from './twitter.svg';
 import react from './react.png';
 import banner from './banner.png';
 import about from './about.png';
+import youtube from './youtube.svg';
+import telegram from './telegram.png'
 
 export {
 	airbnb,
@@ -42,6 +44,8 @@ export {
 	facebook,
 	instagram,
 	linkedin,
+	youtube,
+	telegram,
 	twitter,
 	react,
 	banner,

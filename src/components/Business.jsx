@@ -43,7 +43,7 @@ const Business = () => {
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
-        ))}
+        ))}``
       </div>
     </section>
   );

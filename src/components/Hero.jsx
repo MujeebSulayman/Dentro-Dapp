@@ -21,12 +21,12 @@ const Hero = () => {
         <div className='flex flex-row justify-center items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] md:text[60px] text-white ss:leading-[76px] leading-[58px] md:leading-[72px]'>
             Making life <br />
-            <span className='text-gray-500'>easier with </span>
+            <span className='text-gradient'>easier with </span>
             <br />
             People Utility Token
           </h1>
         </div>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
           The first crypto project set to give and return power to People deploying liberalization and decentralization of Crypto financial system
         </p>
       </div>
@@ -43,7 +43,7 @@ const Hero = () => {
         {/* gradient start */}
         <div className='absolute z-[1] w-[40%] h-[35%] top-0 pink__gradient' />
         <div className='absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40' />
-        <div className='absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient1' />
+        <div className='absolute z-[0] w-[90%] h-[90%] right-10 bottom-20 blue__gradient1' />
         {/* gradient end */}
       </div>
     </section>

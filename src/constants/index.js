@@ -1,4 +1,4 @@
-import { facebook, linkedin, twitter, send, shield, star } from '../assets';
+import { facebook, youtube, instagram, telegram, twitter, send, shield, star } from '../assets';
 
 import HelloDentro from '../assets/HelloDentro.webp';
 import LegitDentro from '../assets/LegitDentro.webp';
@@ -255,18 +255,28 @@ export const footerLinks = [
 
 export const socialMedia = [
 	{
-		id: 'social-media-2',
+		id: 'social-media-5',
+		icon: telegram,
+		link: 'https://www.facebook.com/dentrocoiin/',
+	},
+	{
+		id: 'social-media-1',
 		icon: facebook,
 		link: 'https://www.facebook.com/dentrocoiin/',
 	},
 	{
-		id: 'social-media-3',
+		id: 'social-media-2',
 		icon: twitter,
 		link: 'https://twitter.com/dentrocoin?lang=en',
 	},
 	{
+		id: 'social-media-3',
+		icon: instagram,
+		link: 'https://www.facebook.com/dentrocoiin/',
+	},
+	{
 		id: 'social-media-4',
-		icon: linkedin,
+		icon: youtube,
 		link: 'https://www.linkedin.com/company/dentrocoin/?trk=public_profile_experience-item_profile-section-card_image-click&originalSubdomain=ng',
 	},
 ];
