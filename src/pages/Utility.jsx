@@ -4,7 +4,7 @@ import styles, { layout } from '../style';
 const Utility = () => {
     return (
         <section id='featured'>
-            <div className={`${layout.sectionInfo} backdrop-blur-sm backdrop-brightness-10 md:backdrop-filter-none` }>
+            <div className={`${layout.sectionInfo}` }>
                 <h2
                     className={`${styles.heading2} mt-11 flex font-poppins flex-row justify-center items-center`}
                 >
