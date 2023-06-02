@@ -12,7 +12,7 @@ const Footer = () => (
 					<img src={logo} alt='' className='w-[20%] h-[20%] object-contain' />
 				</Link>
 				<p className={`${styles.paragraph} max-w-[312px] pt-5`}>
-					The first crypto project set to give and return power to humanity(People) deploying liberalization and decentralization of Crypto financial system.
+					The first crypto project set to give and return power to People deploying liberalization and decentralization of Crypto financial system.
 				</p>
 			</div>
 
