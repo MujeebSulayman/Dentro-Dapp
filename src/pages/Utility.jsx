@@ -6,7 +6,7 @@ const Utility = () => {
         <section id='featured'>
             <div className={`${layout.sectionInfo}`}>
                 <h2
-                    className={`${styles.heading3} mt-11 flex font-poppins flex-row justify-center items-center`}
+                    className={`${styles.heading2} mt-11 flex font-poppins flex-row justify-center items-center`}
                 >
                     <span className='text-gradient ml-3'>Utilities</span>
                 </h2>
