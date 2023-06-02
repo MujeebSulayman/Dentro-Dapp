@@ -6,7 +6,7 @@ import MarketplaceCard from './MarketplaceCard'
 const Marketplace = () => {
   return (
     <div className={`${styles.paddingY}`}>
-      <h2 className={`${styles.heading2} flex items-center justify-center pt-[25px]`}>
+      <h2 className={`${styles.heading2} flex items-center leading-[27px] justify-center pt-[25px]`}>
         People's utility token NFT marketplace</h2>
       <section
         id='clients'
