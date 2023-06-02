@@ -28,7 +28,7 @@ const Business = () => {
   return (
     <section id='featured' className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>
+        <h2 className={`${styles.heading2} font-poppins text-gradient`}>
           Goals and Vision
         </h2>
         <p className={`${styles.paragraph} text-dimWhite max-w-[470px] mt-5`}>

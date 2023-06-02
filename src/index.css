@@ -125,8 +125,12 @@
 }
 
 .btn:hover {
-	background: var(--black-gradient);
+	background: linear-gradient(180deg, #EE0091 0%, #4d1f1f 100%);
 	color: white;
+}
+
+.btn:hover{
+	background-color: white;
 }
 
 .circle-btn:hover {

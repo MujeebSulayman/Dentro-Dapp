@@ -5,9 +5,6 @@ import LegitDentro from '../assets/LegitDentro.webp';
 import LianyuDentro from '../assets/LianyuDentro.webp';
 import QishDentro from '../assets/QishDentro.webp';
 import xhiangDentro from '../assets/xhiangDentro.webp';
-import mujeeb1 from '../assets/mujeeb1.jpg';
-import mujeeb3 from '../assets/mujeeb2.jpg';
-import mujeeb2 from '../assets/mujeeb3.jpg';
 
 export const navLinks = [
 	{

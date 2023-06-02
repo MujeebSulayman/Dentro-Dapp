@@ -4,7 +4,7 @@ import binance from './binance.png';
 import card from './card.png';
 import coinbase from './coinbase.png';
 import dropbox from './dropbox.png';
-import logo from './logo.svg';
+import logo from './logo.png';
 import quotes from './quotes.svg';
 import robot from './robot.png';
 import send from './Send.svg';
@@ -21,7 +21,6 @@ import instagram from './instagram.svg';
 import linkedin from './linkedin.svg';
 import twitter from './twitter.svg';
 import react from './react.png';
-import share from './share.png';
 import banner from './banner.png';
 import about from './about.png';
 
@@ -50,6 +49,5 @@ export {
 	twitter,
 	react,
 	banner,
-	share,
 	about,
 };

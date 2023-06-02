@@ -1,5 +1,5 @@
 import React from 'react';
-import put from '../assets/put.png';
+import { logo } from '../assets';
 import { footerLinks, socialMedia } from '../constants';
 import styles from '../style';
 import { Link } from 'react-router-dom';
@@ -9,9 +9,9 @@ const Footer = () => (
 		<div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
 			<div className='flex-[1] flex flex-col justify-start mr-10'>
 				<Link to='/'>
-					<img src={put} alt='' className='w-[42%] h-[47%] object-contain' />
+					<img src={logo} alt='' className='w-[20%] h-[20%] object-contain' />
 				</Link>
-				<p className={`${styles.paragraph} max-w-[312px]`}>
+				<p className={`${styles.paragraph} max-w-[312px] pt-5`}>
 					The first crypto project set to give and return power to humanity(People) deploying liberalization and decentralization of Crypto financial system.
 				</p>
 			</div>

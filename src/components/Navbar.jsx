@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { close, menu } from '../assets';
-import put from '../assets/put.png';
+import { logo } from '../assets';
 import { Link, useNavigate } from 'react-router-dom';
 import { navLinks } from '../constants';
 
@@ -11,9 +11,9 @@ const Navbar = () => {
 	return (
 		<div className='w-full flex py-6 justify-between items-center navbar z-[0]'>
 			<img
-				src={put}
+				src={logo}
 				alt='people utility token'
-				className='w-[140px] h-[100px] cursor-pointer'
+				className='w-[68px] h-[65px] cursor-pointer'
 				onClick={() => Navigate('/')}
 
 			/>

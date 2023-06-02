@@ -8,7 +8,7 @@ const CardDeal = () => {
 		<section className={layout.section1}>
 			
 			<div className={`${layout.sectionInfo} flex-1`}>
-				<h2 className={`${styles.heading2} pb-4 max-w-[470px]`}>
+				<h2 className={`${styles.heading2} pb-4 max-w-[470px] font-poppins text-gradient`}>
 					Token's Utility
 				</h2>
 

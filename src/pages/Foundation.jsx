@@ -8,29 +8,22 @@ const Foundation = () => {
         <h2
           className={`${styles.heading4} mt-11 flex font-poppins flex-row justify-center items-center`}
         >
-          DENTRO<span className='text-gradient ml-3'>FOUNDATION</span>
+          PUT<span className='text-gradient ml-3'>FOUNDATION</span>
         </h2>
 
         <p className={`${styles.paragraph} text-dimWhite m-12 font-poppins`}>
-          Foundation is an integral part of Dentro Ecosystem without which
-          Dentro Project re-greening mission will be unrealizable. Dentro
-          Foundation is a non -profit making organization with the sole mission
-          to make this earth green, safe and secure. Dentro foundation with
-          branches across the continents will collaborate with heads of
-          governments in various regions and relevant arms/agencies of UN and
-          other regional organizations to collaborate on combating climate
-          change and neutralize its effects. Dentro Foundation will work with
-          various local organizations to assess the dangers and educate the
-          local populace on defects of deforestation, human extractive
-          activities and explorations. Where possible, the foundation will
-          influence studies and researches into the alternative energies and
-          affordability to reduce the dangers which are inherent in the existing
-          systems. The Dentro Foundation, although will be positioned to attract
-          local and international aids, its main seed capital will spring from
-          20% of Dentrocoin Total Supply. Dentro Foundation will get more
-          funding from the grants accruing from the profits generated on
-          DentroBiz venturing activities, hence continuous sustenance of
-          re-greening agenda
+          People's utility token(PUT) foundation will be established to support and promote the development and adoption of PUT. The foundation will also support the development of PUT by funding and managing development teams, sponsoring hackathons and other events to encourage innovation, and providing technical resources and support to developers.
+
+          Generally the Foundation would be the charity arm of the project. Where Empowerment and giving back to the people and communities will be the primary objective
+
+          Objectives of PUT Foundation
+
+          Empowerment: the team envisaged giving by to people in kinds through, empowerment to artisans, such as tools for Salon owners, Furniture stores, plumbers, Artist etc.
+
+          Scholarships and grants: PUT Foundation would synchronize scholarship benefits to indigent but aspiring students and grants to the less privileged, widows and orphans. Giving back to the community is a veritable means of wealth distributions, value addition to people and alleviating poverty.
+          The results of these to the projects community cannot be imagined.
+
+          Also at the centre of PUT Foundation is the metropolitan green crusade. It's on record that people generate pollution more at the urban cities and metropolitans hence the project will adopt the business of tree planting. This will have a direct impact on humanity and the environment.
         </p>
       </div>
       <section
