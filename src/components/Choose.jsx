@@ -4,7 +4,7 @@ import FeedbackCard from './FeedbackCard';
 
 const Choose = () => (
   <div className={`${styles.paddingY}`}>
-    <h2 className={`${styles.heading3} flex items-center justify-center pt-[30px]`}>
+    <h2 className={`${styles.heading2} flex items-center justify-center pt-[30px]`}>
       Why Choose People Utility Token </h2>
     <section
       id='clients'
