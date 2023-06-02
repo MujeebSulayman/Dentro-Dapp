@@ -14,13 +14,12 @@ const About = () => {
         <h3
           className={`${styles.heading2} flex justify-center text-center items-center font-poppins mt-3`}
         >
-          About DentroCoin
+          About People Utility Token
         </h3>
         <p
           className={`${styles.paragraph} justify-center items-center text-center font-poppins max-w-[670px]`}
         >
-          Dentro Project is all about saving our planet earth, the lives within
-          and the prosperity of all. Let’s make our planet Greener!
+          The first crypto project set to give and return power to humanity(People) deploying liberalization and decentralization of Crypto financial system
         </p>
       </div>
 
