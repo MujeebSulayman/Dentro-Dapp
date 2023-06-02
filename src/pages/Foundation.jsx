@@ -1,6 +1,7 @@
 import React from 'react';
 import styles, { layout } from '../style';
 import { Stats } from '../components';
+
 const Foundation = () => {
   return (
     <section id='featured'>
