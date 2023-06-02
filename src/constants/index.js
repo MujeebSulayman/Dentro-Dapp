@@ -182,7 +182,7 @@ export const stats = [
 	},
 	{
 		id: 'stats-3',
-		title: 'Trusted by Company',
+		title: 'Trusted by Companies',
 		value: '23+',
 	},
 ];
