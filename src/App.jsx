@@ -4,11 +4,11 @@ import { Footer, Navbar } from './components';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Contact from './pages/Contact';
 import Foundation from './pages/Foundation';
-import Ecosystem from './pages/Ecosystem';
 import Roadmap from './pages/Roadmap';
 import About from './pages/About';
 import Home from './pages/Home';
 import Mission from './pages/Mission';
+import Utility from './pages/Utility';
 import Features from './pages/Features';
 
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
               <Route path='/Features' element={<Features />} />
               <Route path='/foundation' element={<Foundation />} />
               <Route path='/roadmap' element={<Roadmap />} />
-              <Route path='/ecosystem' element={<Ecosystem />} />
+              <Route path='/utility' element={<Utility />} />
               <Route path='/about' element={<About />} />
               <Route path='/mission' element={<Mission />} />
             </Routes>

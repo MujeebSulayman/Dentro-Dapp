@@ -16,8 +16,8 @@ export const navLinks = [
 		title: 'Foundation',
 	},
 	{
-		id: 'ecosystem',
-		title: 'Eco system',
+		id: 'utility',
+		title: 'Utility',
 	},
 	{
 		id: 'features',
@@ -196,8 +196,8 @@ export const footerLinks = [
 				id: 'foundation',
 			},
 			{
-				name: 'Eco system',
-				id: 'ecosystem',
+				name: 'Utility',
+				id: 'utility',
 			},
 			{
 				name: 'Whitepaper',
