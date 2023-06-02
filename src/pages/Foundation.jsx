@@ -6,9 +6,9 @@ const Foundation = () => {
     <section id='featured'>
       <div className={`${layout.sectionInfo}`}>
         <h2
-          className={`${styles.heading4} mt-11 flex font-poppins flex-row justify-center items-center`}
+          className={`${styles.heading4} className='text-gradient ml-3' mt-11 flex font-poppins flex-row justify-center items-center`}
         >
-          PUT<span className='text-gradient ml-3'>FOUNDATION</span>
+          PUT FOUNDATION
         </h2>
 
         <p className={`${styles.paragraph} pt-5 text-dimWhite font-poppins`}>
