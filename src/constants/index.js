@@ -257,22 +257,22 @@ export const socialMedia = [
 	{
 		id: 'social-media-5',
 		icon: telegram,
-		link: 'https://www.facebook.com/dentrocoiin/',
+		link: 'https://t.me/+PCGmnTQHwpEwNzM0',
 	},
 	{
 		id: 'social-media-1',
 		icon: facebook,
-		link: 'https://www.facebook.com/dentrocoiin/',
+		link: '',
 	},
 	{
 		id: 'social-media-2',
 		icon: twitter,
-		link: 'https://twitter.com/dentrocoin?lang=en',
+		link: 'https://twitter.com/utility_token?t=QW_n7Xr-YmdPhZcPNBKTHA&s=08',
 	},
 	{
 		id: 'social-media-3',
 		icon: instagram,
-		link: 'https://www.facebook.com/dentrocoiin/',
+		link: '',
 	},
 	{
 		id: 'social-media-4',

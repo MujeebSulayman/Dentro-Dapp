@@ -27,7 +27,6 @@ const Home = () => {
           <CardDeal />
           <Choose />
           <Clients />
-          <Marketplace/>
         </div>
       </div>
     </>
