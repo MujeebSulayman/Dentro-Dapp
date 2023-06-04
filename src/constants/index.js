@@ -1,4 +1,4 @@
-import { facebook, youtube, instagram, telegram, twitter, send, shield, star } from '../assets';
+import { email, youtube, telegram, twitter, send, shield, star } from '../assets';
 
 import HelloDentro from '../assets/HelloDentro.webp';
 import LegitDentro from '../assets/LegitDentro.webp';
@@ -63,7 +63,7 @@ export const featureNFT = [
 		content:
 			'PUT can be used for soft payments, where users can make small transactions of very low value. This will open up new use cases for People utility token, such as paying for digital content, tipping online creators, and paying for online games.',
 	},
-	
+
 ]
 
 export const features = [
@@ -255,29 +255,26 @@ export const footerLinks = [
 
 export const socialMedia = [
 	{
-		id: 'social-media-5',
+		id: 'social-media-1',
 		icon: telegram,
 		link: 'https://t.me/+PCGmnTQHwpEwNzM0',
 	},
+
 	{
-		id: 'social-media-1',
-		icon: facebook,
-		link: '',
-	},
-	{
-		id: 'social-media-2',
+		id: 'social-media-3',
 		icon: twitter,
 		link: 'https://twitter.com/utility_token?t=QW_n7Xr-YmdPhZcPNBKTHA&s=08',
 	},
-	{
-		id: 'social-media-3',
-		icon: instagram,
-		link: '',
-	},
+
 	{
 		id: 'social-media-4',
 		icon: youtube,
 		link: 'https://www.youtube.com/@PUT_555',
+	},
+	{
+		id: 'social-media-2',
+		icon: email,
+		link: 'peopleskoin@gmail.com',
 	},
 ];
 

@@ -23,6 +23,7 @@ import banner from './banner.png';
 import about from './about.png';
 import youtube from './youtube.svg';
 import telegram from './telegram.png'
+import email from './email.png'
 
 export {
 	airbnb,
@@ -50,4 +51,5 @@ export {
 	react,
 	banner,
 	about,
+	email
 };
