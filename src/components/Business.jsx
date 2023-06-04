@@ -6,7 +6,7 @@ import Button from './Button';
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? 'mb-6' : 'mb-0'
-      } relative bg-white/30 backdrop-blur-sm backdrop-brightness-150 md:backdrop-filter-none `}
+      } relative bg-white/20 backdrop-blur-sm backdrop-brightness-150 md:backdrop-filter-none `}
   >
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-discount-gradient`}
