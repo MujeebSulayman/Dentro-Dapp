@@ -1,7 +1,6 @@
 import React from 'react';
 import { discount, banner } from '../assets';
 import styles from '../style';
-import GetStarted from './GetStarted';
 
 const Hero = () => {
   return (
@@ -43,7 +42,7 @@ const Hero = () => {
         {/* gradient start */}
         <div className='absolute z-[1] w-[40%] h-[35%] top-0 pink__gradient' />
         <div className='absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40' />
-        <div className='absolute z-[0] w-[90%] h-[90%] right-10 bottom-20 blue__gradient1' />
+        <div className='absolute z-[0] w-[60%] h-[60%] right-10 bottom-20 blue__gradient1' />
         {/* gradient end */}
       </div>
     </section>

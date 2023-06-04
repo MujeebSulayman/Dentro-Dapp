@@ -34,17 +34,7 @@
 	text-fill-color: transparent;
 }
 
-.bg-blue-gradient {
-	background: linear-gradient(
-		157.81deg,
-		#def9fa -43.27%,
-		#bef3f5 -21.24%,
-		#9dedf0 12.19%,
-		#7de7eb 29.82%,
-		#5ce1e6 51.94%,
-		#33bbcf 90.29%
-	);
-}
+
 
 .bg-blue-gradient{
 	background: linear-gradient(
@@ -85,7 +75,7 @@
 }
 
 .bg-discount-gradient {
-	background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+	background: linear-gradient(125.17deg, #2c041d 0%, #b10d72 100%);
 }
 
 .box-shadow {

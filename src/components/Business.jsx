@@ -6,10 +6,10 @@ import Button from './Button';
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? 'mb-6' : 'mb-0'
-      } feature-card`}
+      } relative bg-white/30 backdrop-blur-sm backdrop-brightness-150 md:backdrop-filter-none `}
   >
     <div
-      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
+      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-discount-gradient`}
     >
       <img src={icon} alt='star' className='w-[50%] h-[50%] object-contain' />
     </div>
@@ -29,13 +29,12 @@ const Business = () => {
     <section id='featured' className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={`${styles.heading2} font-poppins text-gradient`}>
-          Goals and Vision
+          People utility token <br /> (BEP-20)
         </h2>
         <p className={`${styles.paragraph} text-dimWhite max-w-[470px] mt-5`}>
-          The Goal of the People's Utility token (PUT) project is to provide a decentralized, community-driven cryptocurrency that empowers people to take control of their finances and promote financial inclusivity.
-
-          The Vision of the People utility token is to create a world in which everyone has access to a secure and reliable cryptocurrency that can be used for everyday transactions, investments, and savings. By promoting financial freedom and inclusivity, the People's Coin project seeks to enable people around the world to improve their lives and achieve their financial goals.
+          The first crypto project set to give and return power to the source which is humanity(People) deploying what we call liberalization or decentralization of Crypto financial system.
         </p>
+        <p className={`${styles.paragraph} text-dimWhite max-w-[470px] mt-5`}>Contract Address : 0x112Cc0113A0AF8bC6246361D214B5b7b829CA1A2</p>
         <div className='flex flex-row justify-center items-center'>
           <Button styles='mt-10' />
         </div>

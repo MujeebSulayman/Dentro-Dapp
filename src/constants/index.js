@@ -27,14 +27,14 @@ export const navLinks = [
 		id: 'roadmap',
 		title: 'Roadmap',
 	},
-	{
-		id: 'about',
-		title: 'About',
-	},
-	{
-		id: 'contact',
-		title: 'Contact Us',
-	},
+	// {
+	// 	id: 'about',
+	// 	title: 'About',
+	// },
+	// {
+	// 	id: 'contact',
+	// 	title: 'Contact Us',
+	// },
 ];
 
 export const featureNFT = [
@@ -173,17 +173,17 @@ export const stats = [
 	{
 		id: 'stats-1',
 		title: 'Active Users',
-		value: '30000+',
+		value: '3800+',
 	},
 	{
 		id: 'stats-2',
 		title: 'Transaction',
-		value: '$23M+',
+		value: '$2.1M+',
 	},
 	{
 		id: 'stats-3',
 		title: 'Trusted by Companies',
-		value: '23+',
+		value: '7+',
 	},
 ];
 
@@ -277,7 +277,7 @@ export const socialMedia = [
 	{
 		id: 'social-media-4',
 		icon: youtube,
-		link: 'https://www.linkedin.com/company/dentrocoin/?trk=public_profile_experience-item_profile-section-card_image-click&originalSubdomain=ng',
+		link: 'https://www.youtube.com/@PUT_555',
 	},
 ];
 
