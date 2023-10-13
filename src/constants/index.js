@@ -55,7 +55,7 @@ export const featureNFT = [
 		id: 'featureNFT-3',
 		title: 'Savings',
 		content:
-			'(PUT)can be used as a store of value, making it a viable option for savings. Charitable Donations: PUT can be used for charitable donations, with the transparency of the blockchain ensuring that the donations are used for their intended purpose.',
+			'PUT can be used as a store of value, making it a viable option for savings. Charitable Donations: PUT can be used for charitable donations, with the transparency of the blockchain ensuring that the donations are used for their intended purpose.',
 	},
 	{
 		id: 'featureNFT-4',
