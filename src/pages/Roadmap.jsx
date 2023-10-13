@@ -4,9 +4,9 @@ import styles, { layout } from '../style';
 const Roadmap = () => {
 	return (
 		<section className={`${layout.section}`}>
-			<div className={`${layout.sectionInfo} flex justify-center items-center`}>
+			<div className={`${layout.sectionInfo} flex justify-center items-center md:m-20`}>
 				<h2
-					className={`${styles.heading2} flex justify-center text-center m-9 items-center font-poppins `}
+					className={`${styles.heading2} text-gradient flex justify-center text-center m-9 items-center font-poppins `}
 				>
 					Roadmap
 				</h2>

@@ -5,7 +5,7 @@ import { Stats } from '../components';
 const Foundation = () => {
   return (
     <section id='featured'>
-      <div className={`${layout.sectionInfo}`}>
+      <div className={`${layout.sectionInfo} md:m-20`}>
         <h2
           className={`${styles.heading3} mt-11 flex font-poppins flex-row justify-center items-center`}
         >

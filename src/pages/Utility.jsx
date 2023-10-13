@@ -4,7 +4,7 @@ import styles, { layout } from '../style';
 const Utility = () => {
     return (
         <section id='featured'>
-            <div className={`${layout.sectionInfo}` }>
+            <div className={`${layout.sectionInfo} m-2 md:m-20` }>
                 <h2
                     className={`${styles.heading2} mt-11 flex font-poppins flex-row justify-center items-center`}
                 >
