@@ -16,7 +16,6 @@ export {
   Business,
   Clients,
   Stats,
-
   Footer,
   Choose,
   Marketplace,
