@@ -9,10 +9,16 @@ const Footer = () => (
 		<div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
 			<div className='flex-[1] flex flex-col justify-start mr-10'>
 				<Link to='/'>
-					<img src={logo} alt='' className='w-[20%] h-[20%] object-contain' />
+					<img
+						src={logo}
+						alt=''
+						className='w-[20%] h-[20%] object-contain'
+					/>
 				</Link>
 				<p className={`${styles.paragraph} max-w-[312px] pt-5`}>
-					The first crypto project set to give and return power to People deploying liberalization and decentralization of Crypto financial system.
+					The first crypto project set to give and return power to People
+					deploying liberalization and decentralization of Crypto financial
+					system.
 				</p>
 			</div>
 
@@ -21,19 +27,17 @@ const Footer = () => (
 					<div
 						key={footerlink.id}
 						index={index}
-						className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}
-					>
-						<h4 className='font-poppins font-medium text-[18px] leading-[27px] text-white'>
+						className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
+						<h4 className='font-normal font-medium text-[18px] leading-[27px] text-white'>
 							{footerlink.title}
 						</h4>
 						<ul className='list-none mt-4'>
 							{footerlink.links.map((link, index) => (
 								<li
 									key={link.id}
-									className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
+									className={`font-normal font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
 										index !== footerlink.links.length - 1 ? 'mb-4' : 'mb-0'
-									}`}
-								>
+									}`}>
 									<Link to={`/${link.id}`}> {link.name}</Link>
 								</li>
 							))}
@@ -44,7 +48,7 @@ const Footer = () => (
 		</div>
 
 		<div className='w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]'>
-			<p className='font-poppins font-normal text-center text-[18px] leading-[27px] text-white'>
+			<p className='font-normal font-normal text-center text-[18px] leading-[27px] text-white'>
 				Copyright Ⓒ 2023 All Rights Reserved.
 			</p>
 
